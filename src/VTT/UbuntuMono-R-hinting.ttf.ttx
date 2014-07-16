@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="2.4">
+  <GlyphOrder src="UbuntuMono-R-hinting.ttf.GlyphOrder.ttx"/>
+  <head src="UbuntuMono-R-hinting.ttf._h_e_a_d.ttx"/>
+  <hhea src="UbuntuMono-R-hinting.ttf._h_h_e_a.ttx"/>
+  <maxp src="UbuntuMono-R-hinting.ttf._m_a_x_p.ttx"/>
+  <OS_2 src="UbuntuMono-R-hinting.ttf.O_S_2f_2.ttx"/>
+  <hmtx src="UbuntuMono-R-hinting.ttf._h_m_t_x.ttx"/>
+  <VDMX src="UbuntuMono-R-hinting.ttf.V_D_M_X_.ttx"/>
+  <cmap src="UbuntuMono-R-hinting.ttf._c_m_a_p.ttx"/>
+  <fpgm src="UbuntuMono-R-hinting.ttf._f_p_g_m.ttx"/>
+  <prep src="UbuntuMono-R-hinting.ttf._p_r_e_p.ttx"/>
+  <cvt src="UbuntuMono-R-hinting.ttf._c_v_t.ttx"/>
+  <loca src="UbuntuMono-R-hinting.ttf._l_o_c_a.ttx"/>
+  <glyf src="UbuntuMono-R-hinting.ttf._g_l_y_f.ttx"/>
+  <name src="UbuntuMono-R-hinting.ttf._n_a_m_e.ttx"/>
+  <post src="UbuntuMono-R-hinting.ttf._p_o_s_t.ttx"/>
+  <gasp src="UbuntuMono-R-hinting.ttf._g_a_s_p.ttx"/>
+  <GSUB src="UbuntuMono-R-hinting.ttf.G_S_U_B_.ttx"/>
+  <TSI0 src="UbuntuMono-R-hinting.ttf.T_S_I__0.ttx"/>
+  <TSI1 src="UbuntuMono-R-hinting.ttf.T_S_I__1.ttx"/>
+  <TSI2 src="UbuntuMono-R-hinting.ttf.T_S_I__2.ttx"/>
+  <TSI3 src="UbuntuMono-R-hinting.ttf.T_S_I__3.ttx"/>
+  <TSI5 src="UbuntuMono-R-hinting.ttf.T_S_I__5.ttx"/>
+</ttFont>

@@ -1,0 +1,2425 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=3 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="cyrl"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=9 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="11"/>
+            <FeatureIndex index="2" value="20"/>
+            <FeatureIndex index="3" value="31"/>
+            <FeatureIndex index="4" value="48"/>
+            <FeatureIndex index="5" value="62"/>
+            <FeatureIndex index="6" value="75"/>
+            <FeatureIndex index="7" value="86"/>
+            <FeatureIndex index="8" value="97"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=3 -->
+          <LangSysRecord index="0">
+            <LangSysTag value="BGR "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=10 -->
+              <FeatureIndex index="0" value="1"/>
+              <FeatureIndex index="1" value="12"/>
+              <FeatureIndex index="2" value="21"/>
+              <FeatureIndex index="3" value="32"/>
+              <FeatureIndex index="4" value="42"/>
+              <FeatureIndex index="5" value="49"/>
+              <FeatureIndex index="6" value="63"/>
+              <FeatureIndex index="7" value="76"/>
+              <FeatureIndex index="8" value="87"/>
+              <FeatureIndex index="9" value="98"/>
+            </LangSys>
+          </LangSysRecord>
+          <LangSysRecord index="1">
+            <LangSysTag value="MKD "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=10 -->
+              <FeatureIndex index="0" value="2"/>
+              <FeatureIndex index="1" value="13"/>
+              <FeatureIndex index="2" value="22"/>
+              <FeatureIndex index="3" value="33"/>
+              <FeatureIndex index="4" value="43"/>
+              <FeatureIndex index="5" value="50"/>
+              <FeatureIndex index="6" value="64"/>
+              <FeatureIndex index="7" value="77"/>
+              <FeatureIndex index="8" value="88"/>
+              <FeatureIndex index="9" value="99"/>
+            </LangSys>
+          </LangSysRecord>
+          <LangSysRecord index="2">
+            <LangSysTag value="SRB "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=10 -->
+              <FeatureIndex index="0" value="3"/>
+              <FeatureIndex index="1" value="14"/>
+              <FeatureIndex index="2" value="23"/>
+              <FeatureIndex index="3" value="34"/>
+              <FeatureIndex index="4" value="44"/>
+              <FeatureIndex index="5" value="51"/>
+              <FeatureIndex index="6" value="65"/>
+              <FeatureIndex index="7" value="78"/>
+              <FeatureIndex index="8" value="89"/>
+              <FeatureIndex index="9" value="100"/>
+            </LangSys>
+          </LangSysRecord>
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="1">
+        <ScriptTag value="grek"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=11 -->
+            <FeatureIndex index="0" value="4"/>
+            <FeatureIndex index="1" value="15"/>
+            <FeatureIndex index="2" value="24"/>
+            <FeatureIndex index="3" value="35"/>
+            <FeatureIndex index="4" value="52"/>
+            <FeatureIndex index="5" value="60"/>
+            <FeatureIndex index="6" value="66"/>
+            <FeatureIndex index="7" value="73"/>
+            <FeatureIndex index="8" value="79"/>
+            <FeatureIndex index="9" value="90"/>
+            <FeatureIndex index="10" value="101"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="2">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=12 -->
+            <FeatureIndex index="0" value="5"/>
+            <FeatureIndex index="1" value="16"/>
+            <FeatureIndex index="2" value="25"/>
+            <FeatureIndex index="3" value="36"/>
+            <FeatureIndex index="4" value="53"/>
+            <FeatureIndex index="5" value="59"/>
+            <FeatureIndex index="6" value="61"/>
+            <FeatureIndex index="7" value="67"/>
+            <FeatureIndex index="8" value="74"/>
+            <FeatureIndex index="9" value="80"/>
+            <FeatureIndex index="10" value="91"/>
+            <FeatureIndex index="11" value="102"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=5 -->
+          <LangSysRecord index="0">
+            <LangSysTag value="AZE "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=10 -->
+              <FeatureIndex index="0" value="6"/>
+              <FeatureIndex index="1" value="17"/>
+              <FeatureIndex index="2" value="26"/>
+              <FeatureIndex index="3" value="37"/>
+              <FeatureIndex index="4" value="45"/>
+              <FeatureIndex index="5" value="54"/>
+              <FeatureIndex index="6" value="68"/>
+              <FeatureIndex index="7" value="81"/>
+              <FeatureIndex index="8" value="92"/>
+              <FeatureIndex index="9" value="103"/>
+            </LangSys>
+          </LangSysRecord>
+          <LangSysRecord index="1">
+            <LangSysTag value="CRT "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=10 -->
+              <FeatureIndex index="0" value="7"/>
+              <FeatureIndex index="1" value="18"/>
+              <FeatureIndex index="2" value="27"/>
+              <FeatureIndex index="3" value="38"/>
+              <FeatureIndex index="4" value="46"/>
+              <FeatureIndex index="5" value="55"/>
+              <FeatureIndex index="6" value="69"/>
+              <FeatureIndex index="7" value="82"/>
+              <FeatureIndex index="8" value="93"/>
+              <FeatureIndex index="9" value="104"/>
+            </LangSys>
+          </LangSysRecord>
+          <LangSysRecord index="2">
+            <LangSysTag value="MOL "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=8 -->
+              <FeatureIndex index="0" value="8"/>
+              <FeatureIndex index="1" value="28"/>
+              <FeatureIndex index="2" value="39"/>
+              <FeatureIndex index="3" value="56"/>
+              <FeatureIndex index="4" value="70"/>
+              <FeatureIndex index="5" value="83"/>
+              <FeatureIndex index="6" value="94"/>
+              <FeatureIndex index="7" value="105"/>
+            </LangSys>
+          </LangSysRecord>
+          <LangSysRecord index="3">
+            <LangSysTag value="ROM "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=8 -->
+              <FeatureIndex index="0" value="9"/>
+              <FeatureIndex index="1" value="29"/>
+              <FeatureIndex index="2" value="40"/>
+              <FeatureIndex index="3" value="57"/>
+              <FeatureIndex index="4" value="71"/>
+              <FeatureIndex index="5" value="84"/>
+              <FeatureIndex index="6" value="95"/>
+              <FeatureIndex index="7" value="106"/>
+            </LangSys>
+          </LangSysRecord>
+          <LangSysRecord index="4">
+            <LangSysTag value="TRK "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=10 -->
+              <FeatureIndex index="0" value="10"/>
+              <FeatureIndex index="1" value="19"/>
+              <FeatureIndex index="2" value="30"/>
+              <FeatureIndex index="3" value="41"/>
+              <FeatureIndex index="4" value="47"/>
+              <FeatureIndex index="5" value="58"/>
+              <FeatureIndex index="6" value="72"/>
+              <FeatureIndex index="7" value="85"/>
+              <FeatureIndex index="8" value="96"/>
+              <FeatureIndex index="9" value="107"/>
+            </LangSys>
+          </LangSysRecord>
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=108 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="3">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="4">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="5">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="6">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="7">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="8">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="9">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="10">
+        <FeatureTag value="afrc"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="11">
+        <FeatureTag value="case"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="12">
+        <FeatureTag value="case"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="13">
+        <FeatureTag value="case"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="14">
+        <FeatureTag value="case"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="15">
+        <FeatureTag value="case"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="16">
+        <FeatureTag value="case"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="17">
+        <FeatureTag value="case"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="18">
+        <FeatureTag value="case"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="19">
+        <FeatureTag value="case"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="20">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="21">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="22">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="23">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="24">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="25">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="26">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="27">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="28">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="29">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="30">
+        <FeatureTag value="dnom"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="31">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="32">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="33">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="34">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="35">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="36">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="37">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="38">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="39">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="40">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="41">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="42">
+        <FeatureTag value="locl"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="3"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="43">
+        <FeatureTag value="locl"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="4"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="44">
+        <FeatureTag value="locl"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="5"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="45">
+        <FeatureTag value="locl"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="46">
+        <FeatureTag value="locl"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="47">
+        <FeatureTag value="locl"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="48">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="49">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="50">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="51">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="52">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="53">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="54">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="55">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="56">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="57">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="58">
+        <FeatureTag value="numr"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="59">
+        <FeatureTag value="ordn"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="7"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="60">
+        <FeatureTag value="salt"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="1" value="20"/>
+          <LookupListIndex index="2" value="21"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="61">
+        <FeatureTag value="salt"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="1" value="20"/>
+          <LookupListIndex index="2" value="21"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="62">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="63">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="64">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="65">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="66">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="67">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="68">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="69">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="70">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="71">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="72">
+        <FeatureTag value="sinf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="73">
+        <FeatureTag value="ss01"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="1" value="20"/>
+          <LookupListIndex index="2" value="21"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="74">
+        <FeatureTag value="ss01"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="1" value="20"/>
+          <LookupListIndex index="2" value="21"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="75">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="76">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="77">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="78">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="79">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="80">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="81">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="82">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="83">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="84">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="85">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="86">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="87">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="88">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="89">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="90">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="91">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="92">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="93">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="94">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="95">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="96">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="97">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="98">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="99">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="100">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="101">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="102">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="103">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="104">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="105">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="106">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="107">
+        <FeatureTag value="sups"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=23 -->
+      <Lookup index="0">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="i" out="i.locl"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="i" out="i.locl"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="i" out="i.locl"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="3">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="afii10066" out="afii10066.locl"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="4">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="afii10066" out="afii10066.locl"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="5">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="afii10066" out="afii10066.locl"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="6">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="eight" out="eightsuperior"/>
+          <Substitution in="eight.sinf" out="eightsuperior"/>
+          <Substitution in="eight.sups" out="eightsuperior"/>
+          <Substitution in="eightinferior" out="eightsuperior"/>
+          <Substitution in="five" out="fivesuperior"/>
+          <Substitution in="five.sinf" out="fivesuperior"/>
+          <Substitution in="five.sups" out="fivesuperior"/>
+          <Substitution in="fiveinferior" out="fivesuperior"/>
+          <Substitution in="four" out="foursuperior"/>
+          <Substitution in="four.sinf" out="foursuperior"/>
+          <Substitution in="four.sups" out="foursuperior"/>
+          <Substitution in="fourinferior" out="foursuperior"/>
+          <Substitution in="nine" out="ninesuperior"/>
+          <Substitution in="nine.sinf" out="ninesuperior"/>
+          <Substitution in="nine.sups" out="ninesuperior"/>
+          <Substitution in="nineinferior" out="ninesuperior"/>
+          <Substitution in="one" out="onesuperior"/>
+          <Substitution in="one.sinf" out="onesuperior"/>
+          <Substitution in="one.sups" out="onesuperior"/>
+          <Substitution in="oneinferior" out="onesuperior"/>
+          <Substitution in="seven" out="sevensuperior"/>
+          <Substitution in="seven.sinf" out="sevensuperior"/>
+          <Substitution in="seven.sups" out="sevensuperior"/>
+          <Substitution in="seveninferior" out="sevensuperior"/>
+          <Substitution in="six" out="sixsuperior"/>
+          <Substitution in="six.sinf" out="sixsuperior"/>
+          <Substitution in="six.sups" out="sixsuperior"/>
+          <Substitution in="sixinferior" out="sixsuperior"/>
+          <Substitution in="three" out="threesuperior"/>
+          <Substitution in="three.sinf" out="threesuperior"/>
+          <Substitution in="three.sups" out="threesuperior"/>
+          <Substitution in="threeinferior" out="threesuperior"/>
+          <Substitution in="two" out="twosuperior"/>
+          <Substitution in="two.sinf" out="twosuperior"/>
+          <Substitution in="two.sups" out="twosuperior"/>
+          <Substitution in="twoinferior" out="twosuperior"/>
+          <Substitution in="zero" out="zerosuperior"/>
+          <Substitution in="zero.sinf" out="zerosuperior"/>
+          <Substitution in="zero.sups" out="zerosuperior"/>
+          <Substitution in="zeroinferior" out="zerosuperior"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="7">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="a" out="ordfeminine"/>
+          <Substitution in="o" out="ordmasculine"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="8">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="eight" out="eightinferior"/>
+          <Substitution in="eight.sinf" out="eightinferior"/>
+          <Substitution in="eight.sups" out="eightinferior"/>
+          <Substitution in="eightsuperior" out="eightinferior"/>
+          <Substitution in="five" out="fiveinferior"/>
+          <Substitution in="five.sinf" out="fiveinferior"/>
+          <Substitution in="five.sups" out="fiveinferior"/>
+          <Substitution in="fivesuperior" out="fiveinferior"/>
+          <Substitution in="four" out="fourinferior"/>
+          <Substitution in="four.sinf" out="fourinferior"/>
+          <Substitution in="four.sups" out="fourinferior"/>
+          <Substitution in="foursuperior" out="fourinferior"/>
+          <Substitution in="nine" out="nineinferior"/>
+          <Substitution in="nine.sinf" out="nineinferior"/>
+          <Substitution in="nine.sups" out="nineinferior"/>
+          <Substitution in="ninesuperior" out="nineinferior"/>
+          <Substitution in="one" out="oneinferior"/>
+          <Substitution in="one.sinf" out="oneinferior"/>
+          <Substitution in="one.sups" out="oneinferior"/>
+          <Substitution in="onesuperior" out="oneinferior"/>
+          <Substitution in="seven" out="seveninferior"/>
+          <Substitution in="seven.sinf" out="seveninferior"/>
+          <Substitution in="seven.sups" out="seveninferior"/>
+          <Substitution in="sevensuperior" out="seveninferior"/>
+          <Substitution in="six" out="sixinferior"/>
+          <Substitution in="six.sinf" out="sixinferior"/>
+          <Substitution in="six.sups" out="sixinferior"/>
+          <Substitution in="sixsuperior" out="sixinferior"/>
+          <Substitution in="three" out="threeinferior"/>
+          <Substitution in="three.sinf" out="threeinferior"/>
+          <Substitution in="three.sups" out="threeinferior"/>
+          <Substitution in="threesuperior" out="threeinferior"/>
+          <Substitution in="two" out="twoinferior"/>
+          <Substitution in="two.sinf" out="twoinferior"/>
+          <Substitution in="two.sups" out="twoinferior"/>
+          <Substitution in="twosuperior" out="twoinferior"/>
+          <Substitution in="zero" out="zeroinferior"/>
+          <Substitution in="zero.sinf" out="zeroinferior"/>
+          <Substitution in="zero.sups" out="zeroinferior"/>
+          <Substitution in="zerosuperior" out="zeroinferior"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="9">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="eight" out="eight.sups"/>
+          <Substitution in="eight.sinf" out="eight.sups"/>
+          <Substitution in="eightinferior" out="eight.sups"/>
+          <Substitution in="eightsuperior" out="eight.sups"/>
+          <Substitution in="five" out="five.sups"/>
+          <Substitution in="five.sinf" out="five.sups"/>
+          <Substitution in="fiveinferior" out="five.sups"/>
+          <Substitution in="fivesuperior" out="five.sups"/>
+          <Substitution in="four" out="four.sups"/>
+          <Substitution in="four.sinf" out="four.sups"/>
+          <Substitution in="fourinferior" out="four.sups"/>
+          <Substitution in="foursuperior" out="four.sups"/>
+          <Substitution in="nine" out="nine.sups"/>
+          <Substitution in="nine.sinf" out="nine.sups"/>
+          <Substitution in="nineinferior" out="nine.sups"/>
+          <Substitution in="ninesuperior" out="nine.sups"/>
+          <Substitution in="one" out="one.sups"/>
+          <Substitution in="one.sinf" out="one.sups"/>
+          <Substitution in="oneinferior" out="one.sups"/>
+          <Substitution in="onesuperior" out="one.sups"/>
+          <Substitution in="seven" out="seven.sups"/>
+          <Substitution in="seven.sinf" out="seven.sups"/>
+          <Substitution in="seveninferior" out="seven.sups"/>
+          <Substitution in="sevensuperior" out="seven.sups"/>
+          <Substitution in="six" out="six.sups"/>
+          <Substitution in="six.sinf" out="six.sups"/>
+          <Substitution in="sixinferior" out="six.sups"/>
+          <Substitution in="sixsuperior" out="six.sups"/>
+          <Substitution in="three" out="three.sups"/>
+          <Substitution in="three.sinf" out="three.sups"/>
+          <Substitution in="threeinferior" out="three.sups"/>
+          <Substitution in="threesuperior" out="three.sups"/>
+          <Substitution in="two" out="two.sups"/>
+          <Substitution in="two.sinf" out="two.sups"/>
+          <Substitution in="twoinferior" out="two.sups"/>
+          <Substitution in="twosuperior" out="two.sups"/>
+          <Substitution in="zero" out="zero.sups"/>
+          <Substitution in="zero.sinf" out="zero.sups"/>
+          <Substitution in="zeroinferior" out="zero.sups"/>
+          <Substitution in="zerosuperior" out="zero.sups"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="10">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="eight" out="eight.sinf"/>
+          <Substitution in="eight.sups" out="eight.sinf"/>
+          <Substitution in="eightinferior" out="eight.sinf"/>
+          <Substitution in="eightsuperior" out="eight.sinf"/>
+          <Substitution in="five" out="five.sinf"/>
+          <Substitution in="five.sups" out="five.sinf"/>
+          <Substitution in="fiveinferior" out="five.sinf"/>
+          <Substitution in="fivesuperior" out="five.sinf"/>
+          <Substitution in="four" out="four.sinf"/>
+          <Substitution in="four.sups" out="four.sinf"/>
+          <Substitution in="fourinferior" out="four.sinf"/>
+          <Substitution in="foursuperior" out="four.sinf"/>
+          <Substitution in="nine" out="nine.sinf"/>
+          <Substitution in="nine.sups" out="nine.sinf"/>
+          <Substitution in="nineinferior" out="nine.sinf"/>
+          <Substitution in="ninesuperior" out="nine.sinf"/>
+          <Substitution in="one" out="one.sinf"/>
+          <Substitution in="one.sups" out="one.sinf"/>
+          <Substitution in="oneinferior" out="one.sinf"/>
+          <Substitution in="onesuperior" out="one.sinf"/>
+          <Substitution in="seven" out="seven.sinf"/>
+          <Substitution in="seven.sups" out="seven.sinf"/>
+          <Substitution in="seveninferior" out="seven.sinf"/>
+          <Substitution in="sevensuperior" out="seven.sinf"/>
+          <Substitution in="six" out="six.sinf"/>
+          <Substitution in="six.sups" out="six.sinf"/>
+          <Substitution in="sixinferior" out="six.sinf"/>
+          <Substitution in="sixsuperior" out="six.sinf"/>
+          <Substitution in="three" out="three.sinf"/>
+          <Substitution in="three.sups" out="three.sinf"/>
+          <Substitution in="threeinferior" out="three.sinf"/>
+          <Substitution in="threesuperior" out="three.sinf"/>
+          <Substitution in="two" out="two.sinf"/>
+          <Substitution in="two.sups" out="two.sinf"/>
+          <Substitution in="twoinferior" out="two.sinf"/>
+          <Substitution in="twosuperior" out="two.sinf"/>
+          <Substitution in="zero" out="zero.sinf"/>
+          <Substitution in="zero.sups" out="zero.sinf"/>
+          <Substitution in="zeroinferior" out="zero.sinf"/>
+          <Substitution in="zerosuperior" out="zero.sinf"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="11">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="eight" out="eight.sinf"/>
+          <Substitution in="eight.sups" out="eight.sinf"/>
+          <Substitution in="eightinferior" out="eight.sinf"/>
+          <Substitution in="eightsuperior" out="eight.sinf"/>
+          <Substitution in="five" out="five.sinf"/>
+          <Substitution in="five.sups" out="five.sinf"/>
+          <Substitution in="fiveinferior" out="five.sinf"/>
+          <Substitution in="fivesuperior" out="five.sinf"/>
+          <Substitution in="four" out="four.sinf"/>
+          <Substitution in="four.sups" out="four.sinf"/>
+          <Substitution in="fourinferior" out="four.sinf"/>
+          <Substitution in="foursuperior" out="four.sinf"/>
+          <Substitution in="nine" out="nine.sinf"/>
+          <Substitution in="nine.sups" out="nine.sinf"/>
+          <Substitution in="nineinferior" out="nine.sinf"/>
+          <Substitution in="ninesuperior" out="nine.sinf"/>
+          <Substitution in="one" out="one.sinf"/>
+          <Substitution in="one.sups" out="one.sinf"/>
+          <Substitution in="oneinferior" out="one.sinf"/>
+          <Substitution in="onesuperior" out="one.sinf"/>
+          <Substitution in="seven" out="seven.sinf"/>
+          <Substitution in="seven.sups" out="seven.sinf"/>
+          <Substitution in="seveninferior" out="seven.sinf"/>
+          <Substitution in="sevensuperior" out="seven.sinf"/>
+          <Substitution in="six" out="six.sinf"/>
+          <Substitution in="six.sups" out="six.sinf"/>
+          <Substitution in="sixinferior" out="six.sinf"/>
+          <Substitution in="sixsuperior" out="six.sinf"/>
+          <Substitution in="three" out="three.sinf"/>
+          <Substitution in="three.sups" out="three.sinf"/>
+          <Substitution in="threeinferior" out="three.sinf"/>
+          <Substitution in="threesuperior" out="three.sinf"/>
+          <Substitution in="two" out="two.sinf"/>
+          <Substitution in="two.sups" out="two.sinf"/>
+          <Substitution in="twoinferior" out="two.sinf"/>
+          <Substitution in="twosuperior" out="two.sinf"/>
+          <Substitution in="zero" out="zero.sinf"/>
+          <Substitution in="zero.sups" out="zero.sinf"/>
+          <Substitution in="zeroinferior" out="zero.sinf"/>
+          <Substitution in="zerosuperior" out="zero.sinf"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="12">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="slash" out="fraction"/>
+          <Substitution in="uni2215" out="fraction"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="13">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="eight">
+            <Ligature components="fraction,nine" glyph="eightninths"/>
+            <Ligature components="fraction,ninesuperior" glyph="eightninths"/>
+            <Ligature components="fraction,nineinferior" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sups" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sinf" glyph="eightninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="eight.sinf">
+            <Ligature components="fraction,nine" glyph="eightninths"/>
+            <Ligature components="fraction,ninesuperior" glyph="eightninths"/>
+            <Ligature components="fraction,nineinferior" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sups" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sinf" glyph="eightninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="eight.sups">
+            <Ligature components="fraction,nine" glyph="eightninths"/>
+            <Ligature components="fraction,ninesuperior" glyph="eightninths"/>
+            <Ligature components="fraction,nineinferior" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sups" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sinf" glyph="eightninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="eightinferior">
+            <Ligature components="fraction,nine" glyph="eightninths"/>
+            <Ligature components="fraction,ninesuperior" glyph="eightninths"/>
+            <Ligature components="fraction,nineinferior" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sups" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sinf" glyph="eightninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="eightsuperior">
+            <Ligature components="fraction,nine" glyph="eightninths"/>
+            <Ligature components="fraction,ninesuperior" glyph="eightninths"/>
+            <Ligature components="fraction,nineinferior" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sups" glyph="eightninths"/>
+            <Ligature components="fraction,nine.sinf" glyph="eightninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="five">
+            <Ligature components="fraction,six" glyph="fivesixths"/>
+            <Ligature components="fraction,seven" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine" glyph="fiveninths"/>
+            <Ligature components="fraction,sixsuperior" glyph="fivesixths"/>
+            <Ligature components="fraction,sevensuperior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="fiveeighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fiveninths"/>
+            <Ligature components="fraction,sixinferior" glyph="fivesixths"/>
+            <Ligature components="fraction,seveninferior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="fiveeighths"/>
+            <Ligature components="fraction,nineinferior" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sups" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sups" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sups" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sinf" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sinf" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fiveninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="five.sinf">
+            <Ligature components="fraction,six" glyph="fivesixths"/>
+            <Ligature components="fraction,seven" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine" glyph="fiveninths"/>
+            <Ligature components="fraction,sixsuperior" glyph="fivesixths"/>
+            <Ligature components="fraction,sevensuperior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="fiveeighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fiveninths"/>
+            <Ligature components="fraction,sixinferior" glyph="fivesixths"/>
+            <Ligature components="fraction,seveninferior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="fiveeighths"/>
+            <Ligature components="fraction,nineinferior" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sups" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sups" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sups" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sinf" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sinf" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fiveninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="five.sups">
+            <Ligature components="fraction,six" glyph="fivesixths"/>
+            <Ligature components="fraction,seven" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine" glyph="fiveninths"/>
+            <Ligature components="fraction,sixsuperior" glyph="fivesixths"/>
+            <Ligature components="fraction,sevensuperior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="fiveeighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fiveninths"/>
+            <Ligature components="fraction,sixinferior" glyph="fivesixths"/>
+            <Ligature components="fraction,seveninferior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="fiveeighths"/>
+            <Ligature components="fraction,nineinferior" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sups" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sups" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sups" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sinf" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sinf" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fiveninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="fiveinferior">
+            <Ligature components="fraction,six" glyph="fivesixths"/>
+            <Ligature components="fraction,seven" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine" glyph="fiveninths"/>
+            <Ligature components="fraction,sixsuperior" glyph="fivesixths"/>
+            <Ligature components="fraction,sevensuperior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="fiveeighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fiveninths"/>
+            <Ligature components="fraction,sixinferior" glyph="fivesixths"/>
+            <Ligature components="fraction,seveninferior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="fiveeighths"/>
+            <Ligature components="fraction,nineinferior" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sups" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sups" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sups" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sinf" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sinf" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fiveninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="fivesuperior">
+            <Ligature components="fraction,six" glyph="fivesixths"/>
+            <Ligature components="fraction,seven" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine" glyph="fiveninths"/>
+            <Ligature components="fraction,sixsuperior" glyph="fivesixths"/>
+            <Ligature components="fraction,sevensuperior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="fiveeighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fiveninths"/>
+            <Ligature components="fraction,sixinferior" glyph="fivesixths"/>
+            <Ligature components="fraction,seveninferior" glyph="fivesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="fiveeighths"/>
+            <Ligature components="fraction,nineinferior" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sups" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sups" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sups" glyph="fiveninths"/>
+            <Ligature components="fraction,six.sinf" glyph="fivesixths"/>
+            <Ligature components="fraction,seven.sinf" glyph="fivesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="fiveeighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fiveninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="four">
+            <Ligature components="fraction,five" glyph="fourfifths"/>
+            <Ligature components="fraction,seven" glyph="foursevenths"/>
+            <Ligature components="fraction,nine" glyph="fourninths"/>
+            <Ligature components="fraction,fivesuperior" glyph="fourfifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="foursevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fourninths"/>
+            <Ligature components="fraction,fiveinferior" glyph="fourfifths"/>
+            <Ligature components="fraction,seveninferior" glyph="foursevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="fourninths"/>
+            <Ligature components="fraction,five.sups" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sups" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="fourninths"/>
+            <Ligature components="fraction,five.sinf" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fourninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="four.sinf">
+            <Ligature components="fraction,five" glyph="fourfifths"/>
+            <Ligature components="fraction,seven" glyph="foursevenths"/>
+            <Ligature components="fraction,nine" glyph="fourninths"/>
+            <Ligature components="fraction,fivesuperior" glyph="fourfifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="foursevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fourninths"/>
+            <Ligature components="fraction,fiveinferior" glyph="fourfifths"/>
+            <Ligature components="fraction,seveninferior" glyph="foursevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="fourninths"/>
+            <Ligature components="fraction,five.sups" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sups" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="fourninths"/>
+            <Ligature components="fraction,five.sinf" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fourninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="four.sups">
+            <Ligature components="fraction,five" glyph="fourfifths"/>
+            <Ligature components="fraction,seven" glyph="foursevenths"/>
+            <Ligature components="fraction,nine" glyph="fourninths"/>
+            <Ligature components="fraction,fivesuperior" glyph="fourfifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="foursevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fourninths"/>
+            <Ligature components="fraction,fiveinferior" glyph="fourfifths"/>
+            <Ligature components="fraction,seveninferior" glyph="foursevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="fourninths"/>
+            <Ligature components="fraction,five.sups" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sups" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="fourninths"/>
+            <Ligature components="fraction,five.sinf" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fourninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="fourinferior">
+            <Ligature components="fraction,five" glyph="fourfifths"/>
+            <Ligature components="fraction,seven" glyph="foursevenths"/>
+            <Ligature components="fraction,nine" glyph="fourninths"/>
+            <Ligature components="fraction,fivesuperior" glyph="fourfifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="foursevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fourninths"/>
+            <Ligature components="fraction,fiveinferior" glyph="fourfifths"/>
+            <Ligature components="fraction,seveninferior" glyph="foursevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="fourninths"/>
+            <Ligature components="fraction,five.sups" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sups" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="fourninths"/>
+            <Ligature components="fraction,five.sinf" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fourninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="foursuperior">
+            <Ligature components="fraction,five" glyph="fourfifths"/>
+            <Ligature components="fraction,seven" glyph="foursevenths"/>
+            <Ligature components="fraction,nine" glyph="fourninths"/>
+            <Ligature components="fraction,fivesuperior" glyph="fourfifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="foursevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="fourninths"/>
+            <Ligature components="fraction,fiveinferior" glyph="fourfifths"/>
+            <Ligature components="fraction,seveninferior" glyph="foursevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="fourninths"/>
+            <Ligature components="fraction,five.sups" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sups" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="fourninths"/>
+            <Ligature components="fraction,five.sinf" glyph="fourfifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="foursevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="fourninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="one">
+            <Ligature components="fraction,two" glyph="onehalf"/>
+            <Ligature components="fraction,three" glyph="onethird"/>
+            <Ligature components="fraction,four" glyph="onequarter"/>
+            <Ligature components="fraction,five" glyph="onefifth"/>
+            <Ligature components="fraction,six" glyph="onesixth"/>
+            <Ligature components="fraction,seven" glyph="oneseventh"/>
+            <Ligature components="fraction,eight" glyph="oneeighth"/>
+            <Ligature components="fraction,nine" glyph="oneninth"/>
+            <Ligature components="fraction,twosuperior" glyph="onehalf"/>
+            <Ligature components="fraction,threesuperior" glyph="onethird"/>
+            <Ligature components="fraction,foursuperior" glyph="onequarter"/>
+            <Ligature components="fraction,fivesuperior" glyph="onefifth"/>
+            <Ligature components="fraction,sixsuperior" glyph="onesixth"/>
+            <Ligature components="fraction,sevensuperior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightsuperior" glyph="oneeighth"/>
+            <Ligature components="fraction,ninesuperior" glyph="oneninth"/>
+            <Ligature components="fraction,twoinferior" glyph="onehalf"/>
+            <Ligature components="fraction,threeinferior" glyph="onethird"/>
+            <Ligature components="fraction,fourinferior" glyph="onequarter"/>
+            <Ligature components="fraction,fiveinferior" glyph="onefifth"/>
+            <Ligature components="fraction,sixinferior" glyph="onesixth"/>
+            <Ligature components="fraction,seveninferior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightinferior" glyph="oneeighth"/>
+            <Ligature components="fraction,nineinferior" glyph="oneninth"/>
+            <Ligature components="fraction,two.sups" glyph="onehalf"/>
+            <Ligature components="fraction,three.sups" glyph="onethird"/>
+            <Ligature components="fraction,four.sups" glyph="onequarter"/>
+            <Ligature components="fraction,five.sups" glyph="onefifth"/>
+            <Ligature components="fraction,six.sups" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sups" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sups" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sups" glyph="oneninth"/>
+            <Ligature components="fraction,two.sinf" glyph="onehalf"/>
+            <Ligature components="fraction,three.sinf" glyph="onethird"/>
+            <Ligature components="fraction,four.sinf" glyph="onequarter"/>
+            <Ligature components="fraction,five.sinf" glyph="onefifth"/>
+            <Ligature components="fraction,six.sinf" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sinf" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sinf" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sinf" glyph="oneninth"/>
+          </LigatureSet>
+          <LigatureSet glyph="one.sinf">
+            <Ligature components="fraction,two" glyph="onehalf"/>
+            <Ligature components="fraction,three" glyph="onethird"/>
+            <Ligature components="fraction,four" glyph="onequarter"/>
+            <Ligature components="fraction,five" glyph="onefifth"/>
+            <Ligature components="fraction,six" glyph="onesixth"/>
+            <Ligature components="fraction,seven" glyph="oneseventh"/>
+            <Ligature components="fraction,eight" glyph="oneeighth"/>
+            <Ligature components="fraction,nine" glyph="oneninth"/>
+            <Ligature components="fraction,twosuperior" glyph="onehalf"/>
+            <Ligature components="fraction,threesuperior" glyph="onethird"/>
+            <Ligature components="fraction,foursuperior" glyph="onequarter"/>
+            <Ligature components="fraction,fivesuperior" glyph="onefifth"/>
+            <Ligature components="fraction,sixsuperior" glyph="onesixth"/>
+            <Ligature components="fraction,sevensuperior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightsuperior" glyph="oneeighth"/>
+            <Ligature components="fraction,ninesuperior" glyph="oneninth"/>
+            <Ligature components="fraction,twoinferior" glyph="onehalf"/>
+            <Ligature components="fraction,threeinferior" glyph="onethird"/>
+            <Ligature components="fraction,fourinferior" glyph="onequarter"/>
+            <Ligature components="fraction,fiveinferior" glyph="onefifth"/>
+            <Ligature components="fraction,sixinferior" glyph="onesixth"/>
+            <Ligature components="fraction,seveninferior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightinferior" glyph="oneeighth"/>
+            <Ligature components="fraction,nineinferior" glyph="oneninth"/>
+            <Ligature components="fraction,two.sups" glyph="onehalf"/>
+            <Ligature components="fraction,three.sups" glyph="onethird"/>
+            <Ligature components="fraction,four.sups" glyph="onequarter"/>
+            <Ligature components="fraction,five.sups" glyph="onefifth"/>
+            <Ligature components="fraction,six.sups" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sups" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sups" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sups" glyph="oneninth"/>
+            <Ligature components="fraction,two.sinf" glyph="onehalf"/>
+            <Ligature components="fraction,three.sinf" glyph="onethird"/>
+            <Ligature components="fraction,four.sinf" glyph="onequarter"/>
+            <Ligature components="fraction,five.sinf" glyph="onefifth"/>
+            <Ligature components="fraction,six.sinf" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sinf" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sinf" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sinf" glyph="oneninth"/>
+          </LigatureSet>
+          <LigatureSet glyph="one.sups">
+            <Ligature components="fraction,two" glyph="onehalf"/>
+            <Ligature components="fraction,three" glyph="onethird"/>
+            <Ligature components="fraction,four" glyph="onequarter"/>
+            <Ligature components="fraction,five" glyph="onefifth"/>
+            <Ligature components="fraction,six" glyph="onesixth"/>
+            <Ligature components="fraction,seven" glyph="oneseventh"/>
+            <Ligature components="fraction,eight" glyph="oneeighth"/>
+            <Ligature components="fraction,nine" glyph="oneninth"/>
+            <Ligature components="fraction,twosuperior" glyph="onehalf"/>
+            <Ligature components="fraction,threesuperior" glyph="onethird"/>
+            <Ligature components="fraction,foursuperior" glyph="onequarter"/>
+            <Ligature components="fraction,fivesuperior" glyph="onefifth"/>
+            <Ligature components="fraction,sixsuperior" glyph="onesixth"/>
+            <Ligature components="fraction,sevensuperior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightsuperior" glyph="oneeighth"/>
+            <Ligature components="fraction,ninesuperior" glyph="oneninth"/>
+            <Ligature components="fraction,twoinferior" glyph="onehalf"/>
+            <Ligature components="fraction,threeinferior" glyph="onethird"/>
+            <Ligature components="fraction,fourinferior" glyph="onequarter"/>
+            <Ligature components="fraction,fiveinferior" glyph="onefifth"/>
+            <Ligature components="fraction,sixinferior" glyph="onesixth"/>
+            <Ligature components="fraction,seveninferior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightinferior" glyph="oneeighth"/>
+            <Ligature components="fraction,nineinferior" glyph="oneninth"/>
+            <Ligature components="fraction,two.sups" glyph="onehalf"/>
+            <Ligature components="fraction,three.sups" glyph="onethird"/>
+            <Ligature components="fraction,four.sups" glyph="onequarter"/>
+            <Ligature components="fraction,five.sups" glyph="onefifth"/>
+            <Ligature components="fraction,six.sups" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sups" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sups" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sups" glyph="oneninth"/>
+            <Ligature components="fraction,two.sinf" glyph="onehalf"/>
+            <Ligature components="fraction,three.sinf" glyph="onethird"/>
+            <Ligature components="fraction,four.sinf" glyph="onequarter"/>
+            <Ligature components="fraction,five.sinf" glyph="onefifth"/>
+            <Ligature components="fraction,six.sinf" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sinf" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sinf" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sinf" glyph="oneninth"/>
+          </LigatureSet>
+          <LigatureSet glyph="oneinferior">
+            <Ligature components="fraction,two" glyph="onehalf"/>
+            <Ligature components="fraction,three" glyph="onethird"/>
+            <Ligature components="fraction,four" glyph="onequarter"/>
+            <Ligature components="fraction,five" glyph="onefifth"/>
+            <Ligature components="fraction,six" glyph="onesixth"/>
+            <Ligature components="fraction,seven" glyph="oneseventh"/>
+            <Ligature components="fraction,eight" glyph="oneeighth"/>
+            <Ligature components="fraction,nine" glyph="oneninth"/>
+            <Ligature components="fraction,twosuperior" glyph="onehalf"/>
+            <Ligature components="fraction,threesuperior" glyph="onethird"/>
+            <Ligature components="fraction,foursuperior" glyph="onequarter"/>
+            <Ligature components="fraction,fivesuperior" glyph="onefifth"/>
+            <Ligature components="fraction,sixsuperior" glyph="onesixth"/>
+            <Ligature components="fraction,sevensuperior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightsuperior" glyph="oneeighth"/>
+            <Ligature components="fraction,ninesuperior" glyph="oneninth"/>
+            <Ligature components="fraction,twoinferior" glyph="onehalf"/>
+            <Ligature components="fraction,threeinferior" glyph="onethird"/>
+            <Ligature components="fraction,fourinferior" glyph="onequarter"/>
+            <Ligature components="fraction,fiveinferior" glyph="onefifth"/>
+            <Ligature components="fraction,sixinferior" glyph="onesixth"/>
+            <Ligature components="fraction,seveninferior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightinferior" glyph="oneeighth"/>
+            <Ligature components="fraction,nineinferior" glyph="oneninth"/>
+            <Ligature components="fraction,two.sups" glyph="onehalf"/>
+            <Ligature components="fraction,three.sups" glyph="onethird"/>
+            <Ligature components="fraction,four.sups" glyph="onequarter"/>
+            <Ligature components="fraction,five.sups" glyph="onefifth"/>
+            <Ligature components="fraction,six.sups" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sups" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sups" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sups" glyph="oneninth"/>
+            <Ligature components="fraction,two.sinf" glyph="onehalf"/>
+            <Ligature components="fraction,three.sinf" glyph="onethird"/>
+            <Ligature components="fraction,four.sinf" glyph="onequarter"/>
+            <Ligature components="fraction,five.sinf" glyph="onefifth"/>
+            <Ligature components="fraction,six.sinf" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sinf" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sinf" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sinf" glyph="oneninth"/>
+          </LigatureSet>
+          <LigatureSet glyph="onesuperior">
+            <Ligature components="fraction,two" glyph="onehalf"/>
+            <Ligature components="fraction,three" glyph="onethird"/>
+            <Ligature components="fraction,four" glyph="onequarter"/>
+            <Ligature components="fraction,five" glyph="onefifth"/>
+            <Ligature components="fraction,six" glyph="onesixth"/>
+            <Ligature components="fraction,seven" glyph="oneseventh"/>
+            <Ligature components="fraction,eight" glyph="oneeighth"/>
+            <Ligature components="fraction,nine" glyph="oneninth"/>
+            <Ligature components="fraction,twosuperior" glyph="onehalf"/>
+            <Ligature components="fraction,threesuperior" glyph="onethird"/>
+            <Ligature components="fraction,foursuperior" glyph="onequarter"/>
+            <Ligature components="fraction,fivesuperior" glyph="onefifth"/>
+            <Ligature components="fraction,sixsuperior" glyph="onesixth"/>
+            <Ligature components="fraction,sevensuperior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightsuperior" glyph="oneeighth"/>
+            <Ligature components="fraction,ninesuperior" glyph="oneninth"/>
+            <Ligature components="fraction,twoinferior" glyph="onehalf"/>
+            <Ligature components="fraction,threeinferior" glyph="onethird"/>
+            <Ligature components="fraction,fourinferior" glyph="onequarter"/>
+            <Ligature components="fraction,fiveinferior" glyph="onefifth"/>
+            <Ligature components="fraction,sixinferior" glyph="onesixth"/>
+            <Ligature components="fraction,seveninferior" glyph="oneseventh"/>
+            <Ligature components="fraction,eightinferior" glyph="oneeighth"/>
+            <Ligature components="fraction,nineinferior" glyph="oneninth"/>
+            <Ligature components="fraction,two.sups" glyph="onehalf"/>
+            <Ligature components="fraction,three.sups" glyph="onethird"/>
+            <Ligature components="fraction,four.sups" glyph="onequarter"/>
+            <Ligature components="fraction,five.sups" glyph="onefifth"/>
+            <Ligature components="fraction,six.sups" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sups" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sups" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sups" glyph="oneninth"/>
+            <Ligature components="fraction,two.sinf" glyph="onehalf"/>
+            <Ligature components="fraction,three.sinf" glyph="onethird"/>
+            <Ligature components="fraction,four.sinf" glyph="onequarter"/>
+            <Ligature components="fraction,five.sinf" glyph="onefifth"/>
+            <Ligature components="fraction,six.sinf" glyph="onesixth"/>
+            <Ligature components="fraction,seven.sinf" glyph="oneseventh"/>
+            <Ligature components="fraction,eight.sinf" glyph="oneeighth"/>
+            <Ligature components="fraction,nine.sinf" glyph="oneninth"/>
+          </LigatureSet>
+          <LigatureSet glyph="seven">
+            <Ligature components="fraction,eight" glyph="seveneighths"/>
+            <Ligature components="fraction,nine" glyph="sevenninths"/>
+            <Ligature components="fraction,eightsuperior" glyph="seveneighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="sevenninths"/>
+            <Ligature components="fraction,eightinferior" glyph="seveneighths"/>
+            <Ligature components="fraction,nineinferior" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sups" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sups" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sinf" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="sevenninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="seven.sinf">
+            <Ligature components="fraction,eight" glyph="seveneighths"/>
+            <Ligature components="fraction,nine" glyph="sevenninths"/>
+            <Ligature components="fraction,eightsuperior" glyph="seveneighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="sevenninths"/>
+            <Ligature components="fraction,eightinferior" glyph="seveneighths"/>
+            <Ligature components="fraction,nineinferior" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sups" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sups" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sinf" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="sevenninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="seven.sups">
+            <Ligature components="fraction,eight" glyph="seveneighths"/>
+            <Ligature components="fraction,nine" glyph="sevenninths"/>
+            <Ligature components="fraction,eightsuperior" glyph="seveneighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="sevenninths"/>
+            <Ligature components="fraction,eightinferior" glyph="seveneighths"/>
+            <Ligature components="fraction,nineinferior" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sups" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sups" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sinf" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="sevenninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="seveninferior">
+            <Ligature components="fraction,eight" glyph="seveneighths"/>
+            <Ligature components="fraction,nine" glyph="sevenninths"/>
+            <Ligature components="fraction,eightsuperior" glyph="seveneighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="sevenninths"/>
+            <Ligature components="fraction,eightinferior" glyph="seveneighths"/>
+            <Ligature components="fraction,nineinferior" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sups" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sups" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sinf" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="sevenninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="sevensuperior">
+            <Ligature components="fraction,eight" glyph="seveneighths"/>
+            <Ligature components="fraction,nine" glyph="sevenninths"/>
+            <Ligature components="fraction,eightsuperior" glyph="seveneighths"/>
+            <Ligature components="fraction,ninesuperior" glyph="sevenninths"/>
+            <Ligature components="fraction,eightinferior" glyph="seveneighths"/>
+            <Ligature components="fraction,nineinferior" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sups" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sups" glyph="sevenninths"/>
+            <Ligature components="fraction,eight.sinf" glyph="seveneighths"/>
+            <Ligature components="fraction,nine.sinf" glyph="sevenninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="six">
+            <Ligature components="fraction,seven" glyph="sixsevenths"/>
+            <Ligature components="fraction,sevensuperior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seveninferior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sups" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sinf" glyph="sixsevenths"/>
+          </LigatureSet>
+          <LigatureSet glyph="six.sinf">
+            <Ligature components="fraction,seven" glyph="sixsevenths"/>
+            <Ligature components="fraction,sevensuperior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seveninferior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sups" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sinf" glyph="sixsevenths"/>
+          </LigatureSet>
+          <LigatureSet glyph="six.sups">
+            <Ligature components="fraction,seven" glyph="sixsevenths"/>
+            <Ligature components="fraction,sevensuperior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seveninferior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sups" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sinf" glyph="sixsevenths"/>
+          </LigatureSet>
+          <LigatureSet glyph="sixinferior">
+            <Ligature components="fraction,seven" glyph="sixsevenths"/>
+            <Ligature components="fraction,sevensuperior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seveninferior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sups" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sinf" glyph="sixsevenths"/>
+          </LigatureSet>
+          <LigatureSet glyph="sixsuperior">
+            <Ligature components="fraction,seven" glyph="sixsevenths"/>
+            <Ligature components="fraction,sevensuperior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seveninferior" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sups" glyph="sixsevenths"/>
+            <Ligature components="fraction,seven.sinf" glyph="sixsevenths"/>
+          </LigatureSet>
+          <LigatureSet glyph="three">
+            <Ligature components="fraction,four" glyph="threequarters"/>
+            <Ligature components="fraction,five" glyph="threefifths"/>
+            <Ligature components="fraction,seven" glyph="threesevenths"/>
+            <Ligature components="fraction,eight" glyph="threeeighths"/>
+            <Ligature components="fraction,foursuperior" glyph="threequarters"/>
+            <Ligature components="fraction,fivesuperior" glyph="threefifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="threeeighths"/>
+            <Ligature components="fraction,fourinferior" glyph="threequarters"/>
+            <Ligature components="fraction,fiveinferior" glyph="threefifths"/>
+            <Ligature components="fraction,seveninferior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sups" glyph="threequarters"/>
+            <Ligature components="fraction,five.sups" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sups" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sinf" glyph="threequarters"/>
+            <Ligature components="fraction,five.sinf" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="threeeighths"/>
+          </LigatureSet>
+          <LigatureSet glyph="three.sinf">
+            <Ligature components="fraction,four" glyph="threequarters"/>
+            <Ligature components="fraction,five" glyph="threefifths"/>
+            <Ligature components="fraction,seven" glyph="threesevenths"/>
+            <Ligature components="fraction,eight" glyph="threeeighths"/>
+            <Ligature components="fraction,foursuperior" glyph="threequarters"/>
+            <Ligature components="fraction,fivesuperior" glyph="threefifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="threeeighths"/>
+            <Ligature components="fraction,fourinferior" glyph="threequarters"/>
+            <Ligature components="fraction,fiveinferior" glyph="threefifths"/>
+            <Ligature components="fraction,seveninferior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sups" glyph="threequarters"/>
+            <Ligature components="fraction,five.sups" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sups" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sinf" glyph="threequarters"/>
+            <Ligature components="fraction,five.sinf" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="threeeighths"/>
+          </LigatureSet>
+          <LigatureSet glyph="three.sups">
+            <Ligature components="fraction,four" glyph="threequarters"/>
+            <Ligature components="fraction,five" glyph="threefifths"/>
+            <Ligature components="fraction,seven" glyph="threesevenths"/>
+            <Ligature components="fraction,eight" glyph="threeeighths"/>
+            <Ligature components="fraction,foursuperior" glyph="threequarters"/>
+            <Ligature components="fraction,fivesuperior" glyph="threefifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="threeeighths"/>
+            <Ligature components="fraction,fourinferior" glyph="threequarters"/>
+            <Ligature components="fraction,fiveinferior" glyph="threefifths"/>
+            <Ligature components="fraction,seveninferior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sups" glyph="threequarters"/>
+            <Ligature components="fraction,five.sups" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sups" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sinf" glyph="threequarters"/>
+            <Ligature components="fraction,five.sinf" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="threeeighths"/>
+          </LigatureSet>
+          <LigatureSet glyph="threeinferior">
+            <Ligature components="fraction,four" glyph="threequarters"/>
+            <Ligature components="fraction,five" glyph="threefifths"/>
+            <Ligature components="fraction,seven" glyph="threesevenths"/>
+            <Ligature components="fraction,eight" glyph="threeeighths"/>
+            <Ligature components="fraction,foursuperior" glyph="threequarters"/>
+            <Ligature components="fraction,fivesuperior" glyph="threefifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="threeeighths"/>
+            <Ligature components="fraction,fourinferior" glyph="threequarters"/>
+            <Ligature components="fraction,fiveinferior" glyph="threefifths"/>
+            <Ligature components="fraction,seveninferior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sups" glyph="threequarters"/>
+            <Ligature components="fraction,five.sups" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sups" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sinf" glyph="threequarters"/>
+            <Ligature components="fraction,five.sinf" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="threeeighths"/>
+          </LigatureSet>
+          <LigatureSet glyph="threesuperior">
+            <Ligature components="fraction,four" glyph="threequarters"/>
+            <Ligature components="fraction,five" glyph="threefifths"/>
+            <Ligature components="fraction,seven" glyph="threesevenths"/>
+            <Ligature components="fraction,eight" glyph="threeeighths"/>
+            <Ligature components="fraction,foursuperior" glyph="threequarters"/>
+            <Ligature components="fraction,fivesuperior" glyph="threefifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightsuperior" glyph="threeeighths"/>
+            <Ligature components="fraction,fourinferior" glyph="threequarters"/>
+            <Ligature components="fraction,fiveinferior" glyph="threefifths"/>
+            <Ligature components="fraction,seveninferior" glyph="threesevenths"/>
+            <Ligature components="fraction,eightinferior" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sups" glyph="threequarters"/>
+            <Ligature components="fraction,five.sups" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sups" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sups" glyph="threeeighths"/>
+            <Ligature components="fraction,four.sinf" glyph="threequarters"/>
+            <Ligature components="fraction,five.sinf" glyph="threefifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="threesevenths"/>
+            <Ligature components="fraction,eight.sinf" glyph="threeeighths"/>
+          </LigatureSet>
+          <LigatureSet glyph="two">
+            <Ligature components="fraction,three" glyph="twothirds"/>
+            <Ligature components="fraction,five" glyph="twofifths"/>
+            <Ligature components="fraction,seven" glyph="twosevenths"/>
+            <Ligature components="fraction,nine" glyph="twoninths"/>
+            <Ligature components="fraction,threesuperior" glyph="twothirds"/>
+            <Ligature components="fraction,fivesuperior" glyph="twofifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="twosevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="twoninths"/>
+            <Ligature components="fraction,threeinferior" glyph="twothirds"/>
+            <Ligature components="fraction,fiveinferior" glyph="twofifths"/>
+            <Ligature components="fraction,seveninferior" glyph="twosevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="twoninths"/>
+            <Ligature components="fraction,three.sups" glyph="twothirds"/>
+            <Ligature components="fraction,five.sups" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sups" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="twoninths"/>
+            <Ligature components="fraction,three.sinf" glyph="twothirds"/>
+            <Ligature components="fraction,five.sinf" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="twoninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="two.sinf">
+            <Ligature components="fraction,three" glyph="twothirds"/>
+            <Ligature components="fraction,five" glyph="twofifths"/>
+            <Ligature components="fraction,seven" glyph="twosevenths"/>
+            <Ligature components="fraction,nine" glyph="twoninths"/>
+            <Ligature components="fraction,threesuperior" glyph="twothirds"/>
+            <Ligature components="fraction,fivesuperior" glyph="twofifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="twosevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="twoninths"/>
+            <Ligature components="fraction,threeinferior" glyph="twothirds"/>
+            <Ligature components="fraction,fiveinferior" glyph="twofifths"/>
+            <Ligature components="fraction,seveninferior" glyph="twosevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="twoninths"/>
+            <Ligature components="fraction,three.sups" glyph="twothirds"/>
+            <Ligature components="fraction,five.sups" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sups" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="twoninths"/>
+            <Ligature components="fraction,three.sinf" glyph="twothirds"/>
+            <Ligature components="fraction,five.sinf" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="twoninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="two.sups">
+            <Ligature components="fraction,three" glyph="twothirds"/>
+            <Ligature components="fraction,five" glyph="twofifths"/>
+            <Ligature components="fraction,seven" glyph="twosevenths"/>
+            <Ligature components="fraction,nine" glyph="twoninths"/>
+            <Ligature components="fraction,threesuperior" glyph="twothirds"/>
+            <Ligature components="fraction,fivesuperior" glyph="twofifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="twosevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="twoninths"/>
+            <Ligature components="fraction,threeinferior" glyph="twothirds"/>
+            <Ligature components="fraction,fiveinferior" glyph="twofifths"/>
+            <Ligature components="fraction,seveninferior" glyph="twosevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="twoninths"/>
+            <Ligature components="fraction,three.sups" glyph="twothirds"/>
+            <Ligature components="fraction,five.sups" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sups" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="twoninths"/>
+            <Ligature components="fraction,three.sinf" glyph="twothirds"/>
+            <Ligature components="fraction,five.sinf" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="twoninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="twoinferior">
+            <Ligature components="fraction,three" glyph="twothirds"/>
+            <Ligature components="fraction,five" glyph="twofifths"/>
+            <Ligature components="fraction,seven" glyph="twosevenths"/>
+            <Ligature components="fraction,nine" glyph="twoninths"/>
+            <Ligature components="fraction,threesuperior" glyph="twothirds"/>
+            <Ligature components="fraction,fivesuperior" glyph="twofifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="twosevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="twoninths"/>
+            <Ligature components="fraction,threeinferior" glyph="twothirds"/>
+            <Ligature components="fraction,fiveinferior" glyph="twofifths"/>
+            <Ligature components="fraction,seveninferior" glyph="twosevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="twoninths"/>
+            <Ligature components="fraction,three.sups" glyph="twothirds"/>
+            <Ligature components="fraction,five.sups" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sups" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="twoninths"/>
+            <Ligature components="fraction,three.sinf" glyph="twothirds"/>
+            <Ligature components="fraction,five.sinf" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="twoninths"/>
+          </LigatureSet>
+          <LigatureSet glyph="twosuperior">
+            <Ligature components="fraction,three" glyph="twothirds"/>
+            <Ligature components="fraction,five" glyph="twofifths"/>
+            <Ligature components="fraction,seven" glyph="twosevenths"/>
+            <Ligature components="fraction,nine" glyph="twoninths"/>
+            <Ligature components="fraction,threesuperior" glyph="twothirds"/>
+            <Ligature components="fraction,fivesuperior" glyph="twofifths"/>
+            <Ligature components="fraction,sevensuperior" glyph="twosevenths"/>
+            <Ligature components="fraction,ninesuperior" glyph="twoninths"/>
+            <Ligature components="fraction,threeinferior" glyph="twothirds"/>
+            <Ligature components="fraction,fiveinferior" glyph="twofifths"/>
+            <Ligature components="fraction,seveninferior" glyph="twosevenths"/>
+            <Ligature components="fraction,nineinferior" glyph="twoninths"/>
+            <Ligature components="fraction,three.sups" glyph="twothirds"/>
+            <Ligature components="fraction,five.sups" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sups" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sups" glyph="twoninths"/>
+            <Ligature components="fraction,three.sinf" glyph="twothirds"/>
+            <Ligature components="fraction,five.sinf" glyph="twofifths"/>
+            <Ligature components="fraction,seven.sinf" glyph="twosevenths"/>
+            <Ligature components="fraction,nine.sinf" glyph="twoninths"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="14">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="slash" out="fraction"/>
+          <Substitution in="uni2215" out="fraction"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="15">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="eight" out="eightsuperior"/>
+          <Substitution in="eight.sinf" out="eightsuperior"/>
+          <Substitution in="eight.sups" out="eightsuperior"/>
+          <Substitution in="eightinferior" out="eightsuperior"/>
+          <Substitution in="five" out="fivesuperior"/>
+          <Substitution in="five.sinf" out="fivesuperior"/>
+          <Substitution in="five.sups" out="fivesuperior"/>
+          <Substitution in="fiveinferior" out="fivesuperior"/>
+          <Substitution in="four" out="foursuperior"/>
+          <Substitution in="four.sinf" out="foursuperior"/>
+          <Substitution in="four.sups" out="foursuperior"/>
+          <Substitution in="fourinferior" out="foursuperior"/>
+          <Substitution in="nine" out="ninesuperior"/>
+          <Substitution in="nine.sinf" out="ninesuperior"/>
+          <Substitution in="nine.sups" out="ninesuperior"/>
+          <Substitution in="nineinferior" out="ninesuperior"/>
+          <Substitution in="one" out="onesuperior"/>
+          <Substitution in="one.sinf" out="onesuperior"/>
+          <Substitution in="one.sups" out="onesuperior"/>
+          <Substitution in="oneinferior" out="onesuperior"/>
+          <Substitution in="seven" out="sevensuperior"/>
+          <Substitution in="seven.sinf" out="sevensuperior"/>
+          <Substitution in="seven.sups" out="sevensuperior"/>
+          <Substitution in="seveninferior" out="sevensuperior"/>
+          <Substitution in="six" out="sixsuperior"/>
+          <Substitution in="six.sinf" out="sixsuperior"/>
+          <Substitution in="six.sups" out="sixsuperior"/>
+          <Substitution in="sixinferior" out="sixsuperior"/>
+          <Substitution in="three" out="threesuperior"/>
+          <Substitution in="three.sinf" out="threesuperior"/>
+          <Substitution in="three.sups" out="threesuperior"/>
+          <Substitution in="threeinferior" out="threesuperior"/>
+          <Substitution in="two" out="twosuperior"/>
+          <Substitution in="two.sinf" out="twosuperior"/>
+          <Substitution in="two.sups" out="twosuperior"/>
+          <Substitution in="twoinferior" out="twosuperior"/>
+          <Substitution in="zero" out="zerosuperior"/>
+          <Substitution in="zero.sinf" out="zerosuperior"/>
+          <Substitution in="zero.sups" out="zerosuperior"/>
+          <Substitution in="zeroinferior" out="zerosuperior"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="16">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="fraction"/>
+            <Glyph value="zeroinferior"/>
+            <Glyph value="oneinferior"/>
+            <Glyph value="twoinferior"/>
+            <Glyph value="threeinferior"/>
+            <Glyph value="fourinferior"/>
+            <Glyph value="fiveinferior"/>
+            <Glyph value="sixinferior"/>
+            <Glyph value="seveninferior"/>
+            <Glyph value="eightinferior"/>
+            <Glyph value="nineinferior"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="twosuperior"/>
+            <Glyph value="threesuperior"/>
+            <Glyph value="onesuperior"/>
+            <Glyph value="zerosuperior"/>
+            <Glyph value="foursuperior"/>
+            <Glyph value="fivesuperior"/>
+            <Glyph value="sixsuperior"/>
+            <Glyph value="sevensuperior"/>
+            <Glyph value="eightsuperior"/>
+            <Glyph value="ninesuperior"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="22"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="17">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="at" out="At"/>
+          <Substitution in="backslash" out="Backslash"/>
+          <Substitution in="braceleft" out="Braceleft"/>
+          <Substitution in="braceright" out="Braceright"/>
+          <Substitution in="bracketleft" out="Bracketleft"/>
+          <Substitution in="bracketright" out="Bracketright"/>
+          <Substitution in="bullet" out="Bullet"/>
+          <Substitution in="dotlessj" out="J"/>
+          <Substitution in="emdash" out="Emdash"/>
+          <Substitution in="endash" out="Endash"/>
+          <Substitution in="exclamdown" out="Exclamdown"/>
+          <Substitution in="guillemotleft" out="Guillemotleft"/>
+          <Substitution in="guillemotright" out="Guillemotright"/>
+          <Substitution in="guilsinglleft" out="Guilsinglleft"/>
+          <Substitution in="guilsinglright" out="Guilsinglright"/>
+          <Substitution in="hyphen" out="Hyphen"/>
+          <Substitution in="longs" out="S"/>
+          <Substitution in="parenleft" out="Parenleft"/>
+          <Substitution in="parenright" out="Parenright"/>
+          <Substitution in="questiondown" out="Questiondown"/>
+          <Substitution in="slash" out="Slash"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="18">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="a" out="A"/>
+          <Substitution in="aacute" out="Aacute"/>
+          <Substitution in="abreve" out="Abreve"/>
+          <Substitution in="acircumflex" out="Acircumflex"/>
+          <Substitution in="adieresis" out="Adieresis"/>
+          <Substitution in="ae" out="AE"/>
+          <Substitution in="agrave" out="Agrave"/>
+          <Substitution in="amacron" out="Amacron"/>
+          <Substitution in="aogonek" out="Aogonek"/>
+          <Substitution in="aring" out="Aring"/>
+          <Substitution in="atilde" out="Atilde"/>
+          <Substitution in="b" out="B"/>
+          <Substitution in="c" out="C"/>
+          <Substitution in="cacute" out="Cacute"/>
+          <Substitution in="ccaron" out="Ccaron"/>
+          <Substitution in="ccedilla" out="Ccedilla"/>
+          <Substitution in="ccircumflex" out="Ccircumflex"/>
+          <Substitution in="cdotaccent" out="Cdotaccent"/>
+          <Substitution in="d" out="D"/>
+          <Substitution in="dcaron" out="Dcaron"/>
+          <Substitution in="dcroat" out="Dcroat"/>
+          <Substitution in="e" out="E"/>
+          <Substitution in="eacute" out="Eacute"/>
+          <Substitution in="ebreve" out="Ebreve"/>
+          <Substitution in="ecaron" out="Ecaron"/>
+          <Substitution in="ecircumflex" out="Ecircumflex"/>
+          <Substitution in="edieresis" out="Edieresis"/>
+          <Substitution in="edotaccent" out="Edotaccent"/>
+          <Substitution in="egrave" out="Egrave"/>
+          <Substitution in="emacron" out="Emacron"/>
+          <Substitution in="eng" out="Eng"/>
+          <Substitution in="eogonek" out="Eogonek"/>
+          <Substitution in="eth" out="Eth"/>
+          <Substitution in="f" out="F"/>
+          <Substitution in="g" out="G"/>
+          <Substitution in="gbreve" out="Gbreve"/>
+          <Substitution in="gcircumflex" out="Gcircumflex"/>
+          <Substitution in="gcommaaccent" out="Gcommaaccent"/>
+          <Substitution in="gdotaccent" out="Gdotaccent"/>
+          <Substitution in="h" out="H"/>
+          <Substitution in="hbar" out="Hbar"/>
+          <Substitution in="hcircumflex" out="Hcircumflex"/>
+          <Substitution in="i" out="I"/>
+          <Substitution in="i.locl" out="Idotaccent"/>
+          <Substitution in="iacute" out="Iacute"/>
+          <Substitution in="ibreve" out="Ibreve"/>
+          <Substitution in="icircumflex" out="Icircumflex"/>
+          <Substitution in="idieresis" out="Idieresis"/>
+          <Substitution in="igrave" out="Igrave"/>
+          <Substitution in="ij" out="IJ"/>
+          <Substitution in="imacron" out="Imacron"/>
+          <Substitution in="iogonek" out="Iogonek"/>
+          <Substitution in="itilde" out="Itilde"/>
+          <Substitution in="j" out="J"/>
+          <Substitution in="jcircumflex" out="Jcircumflex"/>
+          <Substitution in="k" out="K"/>
+          <Substitution in="kcommaaccent" out="Kcommaaccent"/>
+          <Substitution in="kgreenlandic" out="kgreenlandic.case"/>
+          <Substitution in="l" out="L"/>
+          <Substitution in="lacute" out="Lacute"/>
+          <Substitution in="lcaron" out="Lcaron"/>
+          <Substitution in="lcommaaccent" out="Lcommaaccent"/>
+          <Substitution in="ldot" out="Ldot"/>
+          <Substitution in="lslash" out="Lslash"/>
+          <Substitution in="m" out="M"/>
+          <Substitution in="n" out="N"/>
+          <Substitution in="nacute" out="Nacute"/>
+          <Substitution in="napostrophe" out="napostrophe.case"/>
+          <Substitution in="ncaron" out="Ncaron"/>
+          <Substitution in="ncommaaccent" out="Ncommaaccent"/>
+          <Substitution in="ntilde" out="Ntilde"/>
+          <Substitution in="o" out="O"/>
+          <Substitution in="oacute" out="Oacute"/>
+          <Substitution in="obreve" out="Obreve"/>
+          <Substitution in="ocircumflex" out="Ocircumflex"/>
+          <Substitution in="odieresis" out="Odieresis"/>
+          <Substitution in="oe" out="OE"/>
+          <Substitution in="ograve" out="Ograve"/>
+          <Substitution in="ohungarumlaut" out="Ohungarumlaut"/>
+          <Substitution in="omacron" out="Omacron"/>
+          <Substitution in="oslash" out="Oslash"/>
+          <Substitution in="otilde" out="Otilde"/>
+          <Substitution in="p" out="P"/>
+          <Substitution in="q" out="Q"/>
+          <Substitution in="r" out="R"/>
+          <Substitution in="racute" out="Racute"/>
+          <Substitution in="rcaron" out="Rcaron"/>
+          <Substitution in="rcommaaccent" out="Rcommaaccent"/>
+          <Substitution in="s" out="S"/>
+          <Substitution in="sacute" out="Sacute"/>
+          <Substitution in="scaron" out="Scaron"/>
+          <Substitution in="scedilla" out="Scedilla"/>
+          <Substitution in="scircumflex" out="Scircumflex"/>
+          <Substitution in="scommaaccent" out="Scommaaccent"/>
+          <Substitution in="t" out="T"/>
+          <Substitution in="tbar" out="Tbar"/>
+          <Substitution in="tcaron" out="Tcaron"/>
+          <Substitution in="thorn" out="Thorn"/>
+          <Substitution in="u" out="U"/>
+          <Substitution in="uacute" out="Uacute"/>
+          <Substitution in="ubreve" out="Ubreve"/>
+          <Substitution in="ucircumflex" out="Ucircumflex"/>
+          <Substitution in="udieresis" out="Udieresis"/>
+          <Substitution in="ugrave" out="Ugrave"/>
+          <Substitution in="uhungarumlaut" out="Uhungarumlaut"/>
+          <Substitution in="umacron" out="Umacron"/>
+          <Substitution in="uni0163" out="uni0162"/>
+          <Substitution in="uni021B" out="uni021A"/>
+          <Substitution in="uogonek" out="Uogonek"/>
+          <Substitution in="uring" out="Uring"/>
+          <Substitution in="utilde" out="Utilde"/>
+          <Substitution in="v" out="V"/>
+          <Substitution in="w" out="W"/>
+          <Substitution in="wacute" out="Wacute"/>
+          <Substitution in="wcircumflex" out="Wcircumflex"/>
+          <Substitution in="wdieresis" out="Wdieresis"/>
+          <Substitution in="wgrave" out="Wgrave"/>
+          <Substitution in="x" out="X"/>
+          <Substitution in="y" out="Y"/>
+          <Substitution in="yacute" out="Yacute"/>
+          <Substitution in="ycircumflex" out="Ycircumflex"/>
+          <Substitution in="ydieresis" out="Ydieresis"/>
+          <Substitution in="ygrave" out="Ygrave"/>
+          <Substitution in="z" out="Z"/>
+          <Substitution in="zacute" out="Zacute"/>
+          <Substitution in="zcaron" out="Zcaron"/>
+          <Substitution in="zdotaccent" out="Zdotaccent"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="19">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="uni1F88" out="uni1F88.alt"/>
+          <Substitution in="uni1F89" out="uni1F89.alt"/>
+          <Substitution in="uni1F8A" out="uni1F8A.alt"/>
+          <Substitution in="uni1F8B" out="uni1F8B.alt"/>
+          <Substitution in="uni1F8C" out="uni1F8C.alt"/>
+          <Substitution in="uni1F8D" out="uni1F8D.alt"/>
+          <Substitution in="uni1F8E" out="uni1F8E.alt"/>
+          <Substitution in="uni1F8F" out="uni1F8F.alt"/>
+          <Substitution in="uni1FBC" out="uni1FBC.alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="20">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="uni1F98" out="uni1F98.alt"/>
+          <Substitution in="uni1F99" out="uni1F99.alt"/>
+          <Substitution in="uni1F9A" out="uni1F9A.alt"/>
+          <Substitution in="uni1F9B" out="uni1F9B.alt"/>
+          <Substitution in="uni1F9C" out="uni1F9C.alt"/>
+          <Substitution in="uni1F9D" out="uni1F9D.alt"/>
+          <Substitution in="uni1F9E" out="uni1F9E.alt"/>
+          <Substitution in="uni1F9F" out="uni1F9F.alt"/>
+          <Substitution in="uni1FCC" out="uni1FCC.alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="21">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="uni1FA8" out="uni1FA8.alt"/>
+          <Substitution in="uni1FA9" out="uni1FA9.alt"/>
+          <Substitution in="uni1FAA" out="uni1FAA.alt"/>
+          <Substitution in="uni1FAB" out="uni1FAB.alt"/>
+          <Substitution in="uni1FAC" out="uni1FAC.alt"/>
+          <Substitution in="uni1FAD" out="uni1FAD.alt"/>
+          <Substitution in="uni1FAE" out="uni1FAE.alt"/>
+          <Substitution in="uni1FAF" out="uni1FAF.alt"/>
+          <Substitution in="uni1FFC" out="uni1FFC.alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="22">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="eightsuperior" out="eightinferior"/>
+          <Substitution in="fivesuperior" out="fiveinferior"/>
+          <Substitution in="foursuperior" out="fourinferior"/>
+          <Substitution in="ninesuperior" out="nineinferior"/>
+          <Substitution in="onesuperior" out="oneinferior"/>
+          <Substitution in="sevensuperior" out="seveninferior"/>
+          <Substitution in="sixsuperior" out="sixinferior"/>
+          <Substitution in="threesuperior" out="threeinferior"/>
+          <Substitution in="twosuperior" out="twoinferior"/>
+          <Substitution in="zerosuperior" out="zeroinferior"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>

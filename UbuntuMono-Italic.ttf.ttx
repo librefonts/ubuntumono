@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="2.4">
+  <GlyphOrder src="UbuntuMono-Italic.ttf.GlyphOrder.ttx"/>
+  <head src="UbuntuMono-Italic.ttf._h_e_a_d.ttx"/>
+  <hhea src="UbuntuMono-Italic.ttf._h_h_e_a.ttx"/>
+  <maxp src="UbuntuMono-Italic.ttf._m_a_x_p.ttx"/>
+  <OS_2 src="UbuntuMono-Italic.ttf.O_S_2f_2.ttx"/>
+  <hmtx src="UbuntuMono-Italic.ttf._h_m_t_x.ttx"/>
+  <VDMX src="UbuntuMono-Italic.ttf.V_D_M_X_.ttx"/>
+  <cmap src="UbuntuMono-Italic.ttf._c_m_a_p.ttx"/>
+  <fpgm src="UbuntuMono-Italic.ttf._f_p_g_m.ttx"/>
+  <prep src="UbuntuMono-Italic.ttf._p_r_e_p.ttx"/>
+  <cvt src="UbuntuMono-Italic.ttf._c_v_t.ttx"/>
+  <loca src="UbuntuMono-Italic.ttf._l_o_c_a.ttx"/>
+  <glyf src="UbuntuMono-Italic.ttf._g_l_y_f.ttx"/>
+  <name src="UbuntuMono-Italic.ttf._n_a_m_e.ttx"/>
+  <post src="UbuntuMono-Italic.ttf._p_o_s_t.ttx"/>
+  <gasp src="UbuntuMono-Italic.ttf._g_a_s_p.ttx"/>
+  <GSUB src="UbuntuMono-Italic.ttf.G_S_U_B_.ttx"/>
+  <DSIG src="UbuntuMono-Italic.ttf.D_S_I_G_.ttx"/>
+</ttFont>
