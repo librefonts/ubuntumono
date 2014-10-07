@@ -1,0 +1,446 @@
+Fonts
+  All fonts have the same character sets.
+  Font:
+    Common name: Ubuntu Monospaced
+    Sub family: Bold Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+    Version: Version 0.80
+    Vendor: Dalton Maag Ltd
+    Vendor url: http://www.daltonmaag.com/
+    Designer: Dalton Maag Ltd
+    Designer url: http://www.daltonmaag.com/
+    Glyph count: 1301
+    Character count: 1213
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: partial
+          Percent coverage: 91
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 34
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 42
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+  Font:
+    Common name: Ubuntu Monospaced
+    Sub family: Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+    Version: Version 0.80
+    Vendor: Dalton Maag Ltd
+    Vendor url: http://www.daltonmaag.com/
+    Designer: Dalton Maag Ltd
+    Designer url: http://www.daltonmaag.com/
+    Glyph count: 1301
+    Character count: 1213
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: partial
+          Percent coverage: 91
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 34
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 42
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+  Font:
+    Common name: Ubuntu Mono
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+    Version: Version 0.80
+    Vendor: Dalton Maag Ltd
+    Vendor url: http://www.daltonmaag.com/
+    Designer: Dalton Maag Ltd
+    Designer url: http://www.daltonmaag.com/
+    Glyph count: 1296
+    Character count: 1224
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: partial
+          Percent coverage: 91
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 34
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 42
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+  Font:
+    Common name: Ubuntu Mono
+    Sub family: Bold Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+    Version: Version 0.80
+    Vendor: Dalton Maag Ltd
+    Vendor url: http://www.daltonmaag.com/
+    Designer: Dalton Maag Ltd
+    Designer url: http://www.daltonmaag.com/
+    Glyph count: 1301
+    Character count: 1224
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: partial
+          Percent coverage: 91
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 34
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 42
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+  Font:
+    Common name: Ubuntu Mono
+    Sub family: Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+    Version: Version 0.80
+    Vendor: Dalton Maag Ltd
+    Vendor url: http://www.daltonmaag.com/
+    Designer: Dalton Maag Ltd
+    Designer url: http://www.daltonmaag.com/
+    Glyph count: 1301
+    Character count: 1224
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: partial
+          Percent coverage: 91
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 34
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 42
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+  Font:
+    Common name: Ubuntu Monospaced
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+    Version: Version 0.80
+    Vendor: Dalton Maag Ltd
+    Vendor url: http://www.daltonmaag.com/
+    Designer: Dalton Maag Ltd
+    Designer url: http://www.daltonmaag.com/
+    Glyph count: 1296
+    Character count: 1213
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: partial
+          Percent coverage: 91
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 34
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 42
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+  Font:
+    Common name: Ubuntu Mono
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+    Version: Version 0.80
+    Vendor: Dalton Maag Ltd
+    Vendor url: http://www.daltonmaag.com/
+    Designer: Dalton Maag Ltd
+    Designer url: http://www.daltonmaag.com/
+    Glyph count: 1296
+    Character count: 1224
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: partial
+          Percent coverage: 91
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 34
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 42
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+  Font:
+    Common name: Ubuntu Monospaced
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+    Version: Version 0.80
+    Vendor: Dalton Maag Ltd
+    Vendor url: http://www.daltonmaag.com/
+    Designer: Dalton Maag Ltd
+    Designer url: http://www.daltonmaag.com/
+    Glyph count: 1296
+    Character count: 1213
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: partial
+          Percent coverage: 91
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 34
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 42
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49

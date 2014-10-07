@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [UbuntuMono-Regular.ttf.ttx, UbuntuMono-BoldItalic.ttf.ttx, UbuntuMono-Italic.ttf.ttx,
+  UbuntuMono-Bold.ttf.ttx, src/VTT/UbuntuMono-BI-hinting.ttf.ttx, src/VTT/UbuntuMono-RI-hinting.ttf.ttx,
+  src/VTT/UbuntuMono-R-hinting.ttf.ttx, src/VTT/UbuntuMono-B-hinting.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

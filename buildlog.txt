@@ -1,0 +1,1273 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/ubuntumono/METADATA.json /home/travis/build/fontdirectory/ubuntumono/builds/build
+$ cp -a /home/travis/build/fontdirectory/ubuntumono/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/ubuntumono/builds/build
+$ cp -a /home/travis/build/fontdirectory/ubuntumono/FONTLOG.txt /home/travis/build/fontdirectory/ubuntumono/builds/build
+$ cp -a UbuntuMono-Regular.ttf.ttx UbuntuMono-BoldItalic.ttf.ttx UbuntuMono-Italic.ttf.ttx UbuntuMono-Bold.ttf.ttx src/VTT/UbuntuMono-BI-hinting.ttf.ttx src/VTT/UbuntuMono-RI-hinting.ttf.ttx src/VTT/UbuntuMono-R-hinting.ttf.ttx src/VTT/UbuntuMono-B-hinting.ttf.ttx UbuntuMono-Regular.ttf.O_S_2f_2.ttx UbuntuMono-Regular.ttf._l_o_c_a.ttx UbuntuMono-Regular.ttf._f_p_g_m.ttx UbuntuMono-Regular.ttf.V_D_M_X_.ttx UbuntuMono-Regular.ttf._g_l_y_f.ttx UbuntuMono-Regular.ttf._p_o_s_t.ttx UbuntuMono-Regular.ttf._g_a_s_p.ttx UbuntuMono-Regular.ttf.GlyphOrder.ttx UbuntuMono-Regular.ttf._c_m_a_p.ttx UbuntuMono-Regular.ttf._c_v_t.ttx UbuntuMono-Regular.ttf._h_e_a_d.ttx UbuntuMono-Regular.ttf._m_a_x_p.ttx UbuntuMono-Regular.ttf._p_r_e_p.ttx UbuntuMono-Regular.ttf.G_S_U_B_.ttx UbuntuMono-Regular.ttf._n_a_m_e.ttx UbuntuMono-Regular.ttf._h_h_e_a.ttx UbuntuMono-Regular.ttf._h_m_t_x.ttx UbuntuMono-Regular.ttf.D_S_I_G_.ttx UbuntuMono-BoldItalic.ttf.G_S_U_B_.ttx UbuntuMono-BoldItalic.ttf._n_a_m_e.ttx UbuntuMono-BoldItalic.ttf.D_S_I_G_.ttx UbuntuMono-BoldItalic.ttf._p_o_s_t.ttx UbuntuMono-BoldItalic.ttf._h_m_t_x.ttx UbuntuMono-BoldItalic.ttf.GlyphOrder.ttx UbuntuMono-BoldItalic.ttf._g_l_y_f.ttx UbuntuMono-BoldItalic.ttf._c_m_a_p.ttx UbuntuMono-BoldItalic.ttf._l_o_c_a.ttx UbuntuMono-BoldItalic.ttf._h_h_e_a.ttx UbuntuMono-BoldItalic.ttf._p_r_e_p.ttx UbuntuMono-BoldItalic.ttf.O_S_2f_2.ttx UbuntuMono-BoldItalic.ttf._h_e_a_d.ttx UbuntuMono-BoldItalic.ttf._m_a_x_p.ttx UbuntuMono-BoldItalic.ttf._c_v_t.ttx UbuntuMono-BoldItalic.ttf._g_a_s_p.ttx UbuntuMono-BoldItalic.ttf._f_p_g_m.ttx UbuntuMono-Italic.ttf.D_S_I_G_.ttx UbuntuMono-Italic.ttf.G_S_U_B_.ttx UbuntuMono-Italic.ttf._n_a_m_e.ttx UbuntuMono-Italic.ttf._h_h_e_a.ttx UbuntuMono-Italic.ttf.O_S_2f_2.ttx UbuntuMono-Italic.ttf._h_e_a_d.ttx UbuntuMono-Italic.ttf._l_o_c_a.ttx UbuntuMono-Italic.ttf._m_a_x_p.ttx UbuntuMono-Italic.ttf._f_p_g_m.ttx UbuntuMono-Italic.ttf._p_o_s_t.ttx UbuntuMono-Italic.ttf._p_r_e_p.ttx UbuntuMono-Italic.ttf._g_l_y_f.ttx UbuntuMono-Italic.ttf._c_m_a_p.ttx UbuntuMono-Italic.ttf._c_v_t.ttx UbuntuMono-Italic.ttf.GlyphOrder.ttx UbuntuMono-Italic.ttf._g_a_s_p.ttx UbuntuMono-Italic.ttf.V_D_M_X_.ttx UbuntuMono-Italic.ttf._h_m_t_x.ttx UbuntuMono-Bold.ttf.D_S_I_G_.ttx UbuntuMono-Bold.ttf._c_m_a_p.ttx UbuntuMono-Bold.ttf._p_o_s_t.ttx UbuntuMono-Bold.ttf.O_S_2f_2.ttx UbuntuMono-Bold.ttf.GlyphOrder.ttx UbuntuMono-Bold.ttf._g_l_y_f.ttx UbuntuMono-Bold.ttf._h_m_t_x.ttx UbuntuMono-Bold.ttf._f_p_g_m.ttx UbuntuMono-Bold.ttf._m_a_x_p.ttx UbuntuMono-Bold.ttf._n_a_m_e.ttx UbuntuMono-Bold.ttf.V_D_M_X_.ttx UbuntuMono-Bold.ttf._g_a_s_p.ttx UbuntuMono-Bold.ttf._p_r_e_p.ttx UbuntuMono-Bold.ttf._c_v_t.ttx UbuntuMono-Bold.ttf._l_o_c_a.ttx UbuntuMono-Bold.ttf.G_S_U_B_.ttx UbuntuMono-Bold.ttf._h_h_e_a.ttx UbuntuMono-Bold.ttf._h_e_a_d.ttx src/VTT/UbuntuMono-BI-hinting.ttf._h_e_a_d.ttx src/VTT/UbuntuMono-BI-hinting.ttf.T_S_I__3.ttx src/VTT/UbuntuMono-BI-hinting.ttf.T_S_I__0.ttx src/VTT/UbuntuMono-BI-hinting.ttf._c_m_a_p.ttx src/VTT/UbuntuMono-BI-hinting.ttf._l_o_c_a.ttx src/VTT/UbuntuMono-BI-hinting.ttf.G_S_U_B_.ttx src/VTT/UbuntuMono-BI-hinting.ttf._h_h_e_a.ttx src/VTT/UbuntuMono-BI-hinting.ttf._h_m_t_x.ttx src/VTT/UbuntuMono-BI-hinting.ttf._m_a_x_p.ttx src/VTT/UbuntuMono-BI-hinting.ttf._p_o_s_t.ttx src/VTT/UbuntuMono-BI-hinting.ttf.T_S_I__5.ttx src/VTT/UbuntuMono-BI-hinting.ttf.T_S_I__2.ttx src/VTT/UbuntuMono-BI-hinting.ttf.T_S_I__1.ttx src/VTT/UbuntuMono-BI-hinting.ttf._f_p_g_m.ttx src/VTT/UbuntuMono-BI-hinting.ttf._g_a_s_p.ttx src/VTT/UbuntuMono-BI-hinting.ttf._c_v_t.ttx src/VTT/UbuntuMono-BI-hinting.ttf._n_a_m_e.ttx src/VTT/UbuntuMono-BI-hinting.ttf.GlyphOrder.ttx src/VTT/UbuntuMono-BI-hinting.ttf._p_r_e_p.ttx src/VTT/UbuntuMono-BI-hinting.ttf._g_l_y_f.ttx src/VTT/UbuntuMono-BI-hinting.ttf.O_S_2f_2.ttx src/VTT/UbuntuMono-RI-hinting.ttf._g_l_y_f.ttx src/VTT/UbuntuMono-RI-hinting.ttf._f_p_g_m.ttx src/VTT/UbuntuMono-RI-hinting.ttf._n_a_m_e.ttx src/VTT/UbuntuMono-RI-hinting.ttf._p_r_e_p.ttx src/VTT/UbuntuMono-RI-hinting.ttf._h_h_e_a.ttx src/VTT/UbuntuMono-RI-hinting.ttf.T_S_I__2.ttx src/VTT/UbuntuMono-RI-hinting.ttf._l_o_c_a.ttx src/VTT/UbuntuMono-RI-hinting.ttf._p_o_s_t.ttx src/VTT/UbuntuMono-RI-hinting.ttf.GlyphOrder.ttx src/VTT/UbuntuMono-RI-hinting.ttf.T_S_I__0.ttx src/VTT/UbuntuMono-RI-hinting.ttf.T_S_I__5.ttx src/VTT/UbuntuMono-RI-hinting.ttf._h_m_t_x.ttx src/VTT/UbuntuMono-RI-hinting.ttf.V_D_M_X_.ttx src/VTT/UbuntuMono-RI-hinting.ttf._c_v_t.ttx src/VTT/UbuntuMono-RI-hinting.ttf._h_e_a_d.ttx src/VTT/UbuntuMono-RI-hinting.ttf._m_a_x_p.ttx src/VTT/UbuntuMono-RI-hinting.ttf.G_S_U_B_.ttx src/VTT/UbuntuMono-RI-hinting.ttf.T_S_I__3.ttx src/VTT/UbuntuMono-RI-hinting.ttf.O_S_2f_2.ttx src/VTT/UbuntuMono-RI-hinting.ttf._c_m_a_p.ttx src/VTT/UbuntuMono-RI-hinting.ttf.T_S_I__1.ttx src/VTT/UbuntuMono-RI-hinting.ttf._g_a_s_p.ttx src/VTT/UbuntuMono-R-hinting.ttf._l_o_c_a.ttx src/VTT/UbuntuMono-R-hinting.ttf._p_o_s_t.ttx src/VTT/UbuntuMono-R-hinting.ttf.T_S_I__2.ttx src/VTT/UbuntuMono-R-hinting.ttf.T_S_I__5.ttx src/VTT/UbuntuMono-R-hinting.ttf._g_a_s_p.ttx src/VTT/UbuntuMono-R-hinting.ttf._c_v_t.ttx src/VTT/UbuntuMono-R-hinting.ttf.T_S_I__0.ttx src/VTT/UbuntuMono-R-hinting.ttf._n_a_m_e.ttx src/VTT/UbuntuMono-R-hinting.ttf._g_l_y_f.ttx src/VTT/UbuntuMono-R-hinting.ttf._h_h_e_a.ttx src/VTT/UbuntuMono-R-hinting.ttf.G_S_U_B_.ttx src/VTT/UbuntuMono-R-hinting.ttf.O_S_2f_2.ttx src/VTT/UbuntuMono-R-hinting.ttf._p_r_e_p.ttx src/VTT/UbuntuMono-R-hinting.ttf.T_S_I__3.ttx src/VTT/UbuntuMono-R-hinting.ttf._c_m_a_p.ttx src/VTT/UbuntuMono-R-hinting.ttf.V_D_M_X_.ttx src/VTT/UbuntuMono-R-hinting.ttf._h_e_a_d.ttx src/VTT/UbuntuMono-R-hinting.ttf.GlyphOrder.ttx src/VTT/UbuntuMono-R-hinting.ttf.T_S_I__1.ttx src/VTT/UbuntuMono-R-hinting.ttf._h_m_t_x.ttx src/VTT/UbuntuMono-R-hinting.ttf._f_p_g_m.ttx src/VTT/UbuntuMono-R-hinting.ttf._m_a_x_p.ttx src/VTT/UbuntuMono-B-hinting.ttf._h_e_a_d.ttx src/VTT/UbuntuMono-B-hinting.ttf._p_o_s_t.ttx src/VTT/UbuntuMono-B-hinting.ttf.T_S_I__1.ttx src/VTT/UbuntuMono-B-hinting.ttf.T_S_I__5.ttx src/VTT/UbuntuMono-B-hinting.ttf.T_S_I__2.ttx src/VTT/UbuntuMono-B-hinting.ttf._g_a_s_p.ttx src/VTT/UbuntuMono-B-hinting.ttf.T_S_I__3.ttx src/VTT/UbuntuMono-B-hinting.ttf.GlyphOrder.ttx src/VTT/UbuntuMono-B-hinting.ttf._p_r_e_p.ttx src/VTT/UbuntuMono-B-hinting.ttf.V_D_M_X_.ttx src/VTT/UbuntuMono-B-hinting.ttf._h_m_t_x.ttx src/VTT/UbuntuMono-B-hinting.ttf._n_a_m_e.ttx src/VTT/UbuntuMono-B-hinting.ttf._f_p_g_m.ttx src/VTT/UbuntuMono-B-hinting.ttf.O_S_2f_2.ttx src/VTT/UbuntuMono-B-hinting.ttf.G_S_U_B_.ttx src/VTT/UbuntuMono-B-hinting.ttf._c_m_a_p.ttx src/VTT/UbuntuMono-B-hinting.ttf.T_S_I__0.ttx src/VTT/UbuntuMono-B-hinting.ttf._c_v_t.ttx src/VTT/UbuntuMono-B-hinting.ttf._m_a_x_p.ttx src/VTT/UbuntuMono-B-hinting.ttf._g_l_y_f.ttx src/VTT/UbuntuMono-B-hinting.ttf._l_o_c_a.ttx src/VTT/UbuntuMono-B-hinting.ttf._h_h_e_a.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-BI-hinting.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-RI-hinting.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Regular.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Italic.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-R-hinting.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Bold.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-B-hinting.ttf.ttx > fontaine.txt
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx UbuntuMono-BI-hinting.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-BI-hinting.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx UbuntuMono-RI-hinting.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-RI-hinting.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx UbuntuMono-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Regular.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx UbuntuMono-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx UbuntuMono-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Italic.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx UbuntuMono-R-hinting.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-R-hinting.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx UbuntuMono-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Bold.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx UbuntuMono-B-hinting.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-B-hinting.ttf.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/ubuntumono/builds/build /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Italic.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-Bold.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-Italic.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-BoldItalic.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-BoldItalic.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Bold.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-Regular.ttx /home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Regular.ttx
+Compiling "/home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Italic.ttx" to "/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-Bold.ttx" to "/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GSUB' table...
+Parsing 'TSI0' table...
+Parsing 'TSI1' table...
+Parsing 'TSI2' table...
+Parsing 'TSI3' table...
+Parsing 'TSI5' table...
+Compiling "/home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-Italic.ttx" to "/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GSUB' table...
+Parsing 'TSI0' table...
+Parsing 'TSI1' table...
+Parsing 'TSI2' table...
+Parsing 'TSI3' table...
+Parsing 'TSI5' table...
+Compiling "/home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-BoldItalic.ttx" to "/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-BoldItalic.ttx" to "/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GSUB' table...
+Parsing 'TSI0' table...
+Parsing 'TSI1' table...
+Parsing 'TSI2' table...
+Parsing 'TSI3' table...
+Parsing 'TSI5' table...
+Compiling "/home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Bold.ttx" to "/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMonospaced-Regular.ttx" to "/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GSUB' table...
+Parsing 'TSI0' table...
+Parsing 'TSI1' table...
+Parsing 'TSI2' table...
+Parsing 'TSI3' table...
+Parsing 'TSI5' table...
+Compiling "/home/travis/build/fontdirectory/ubuntumono/builds/build/sources/UbuntuMono-Regular.ttx" to "/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+### Test UbuntuMono-Italic.ttf
+$ fontbakery-check.py result UbuntuMono-Italic.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+Parameter              UbuntuMonospaced-BoldItalic.ttf    UbuntuMonospaced-Italic.ttf    UbuntuMono-Italic.ttf    UbuntuMonospaced-Regular.ttf    UbuntuMono-Regular.ttf    UbuntuMonospaced-Bold.ttf    UbuntuMono-BoldItalic.ttf    UbuntuMono-Bold.ttf    
+ymax                   830                                835                            835                      830                             830                       831                          830                          831                    
+hhea.ascent            835                                835                            835                      835                             835                       835                          835                          835                    
+OS/2.sTypoAscender     835                                835                            835                      835                             835                       835                          835                          835                    
+OS/2.usWinAscent       835                                835                            835                      835                             835                       835                          835                          835                    
+ymin                   -170                               -170                           -170                     -170                            -170                      -170                         -170                         -170                   
+hhea.descent           -170                               -170                           -170                     -170                            -170                      -170                         -170                         -170                   
+OS/2.sTypoDescender    -170                               -170                           -170                     -170                            -170                      -170                         -170                         -170                   
+OS/2.usWinDescent      170                                170                            170                      170                             170                       170                          170                          170                    
+hhea.lineGap           0                                  0                              0                        0                               0                         0                            0                            0                      
+OS/2.sTypoLineGap      0                                  0                              0                        0                               0                         0                            0                            0                      
+hhea total             1005                               1005                           1005                     1005                            1005                      1005                         1005                         1005                   
+typo total             1005                               1005                           1005                     1005                            1005                      1005                         1005                         1005                   
+win total              1005                               1005                           1005                     1005                            1005                      1005                         1005                         1005                   
+UPM:Heights            1000:1000                          1000:1005                      1000:1005                1000:1000                       1000:1000                 1000:1001                    1000:1000                    1000:1001              
+UPM:Heights %          100 %                              100 %                          100 %                    100 %                           100 %                     100 %                        100 %                        100 %                  
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): ERROR
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'VDMX' vertical device metrics table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): ERROR
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+### Optimize TTF UbuntuMono-Italic.ttf
+$ ls -l 'UbuntuMono-Italic.ttf'* # look at the size savings of that subset process
+UbuntuMono-Italic.ttf.opt: 185024 bytes
+UbuntuMono-Italic.ttf: 204500 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf.opt /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+### Autohint TTFs (ttfautohint) UbuntuMono-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf '/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf: 185024 bytes
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.autohint.ttf: 147260 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.autohint.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+### Subset TTFs (pyftsubset) UbuntuMono-Italic.ttf
+$ pyftsubset UbuntuMono-Italic.latin
+$ pyftsubset UbuntuMono-Italic.menu
+strippedname:/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Italic.ttf
+### Test UbuntuMonospaced-Bold.ttf
+$ fontbakery-check.py result UbuntuMonospaced-Bold.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): ERROR
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'TSI0'
+  Ignoring 'TSI1'
+  Ignoring 'TSI2'
+  Ignoring 'TSI3'
+  Ignoring 'TSI5'
+  Ignoring 'VDMX' vertical device metrics table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): ERROR
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+### Optimize TTF UbuntuMonospaced-Bold.ttf
+$ ls -l 'UbuntuMonospaced-Bold.ttf'* # look at the size savings of that subset process
+UbuntuMonospaced-Bold.ttf.opt: 166196 bytes
+UbuntuMonospaced-Bold.ttf: 981372 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf.opt /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+### Autohint TTFs (ttfautohint) UbuntuMonospaced-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf '/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf: 166196 bytes
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.autohint.ttf: 136140 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.autohint.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+### Subset TTFs (pyftsubset) UbuntuMonospaced-Bold.ttf
+$ pyftsubset UbuntuMonospaced-Bold.latin
+$ pyftsubset UbuntuMonospaced-Bold.menu
+strippedname:/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Bold.ttf
+### Test UbuntuMonospaced-Italic.ttf
+$ fontbakery-check.py result UbuntuMonospaced-Italic.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): ERROR
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'TSI0'
+  Ignoring 'TSI1'
+  Ignoring 'TSI2'
+  Ignoring 'TSI3'
+  Ignoring 'TSI5'
+  Ignoring 'VDMX' vertical device metrics table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): ERROR
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+### Optimize TTF UbuntuMonospaced-Italic.ttf
+$ ls -l 'UbuntuMonospaced-Italic.ttf'* # look at the size savings of that subset process
+UbuntuMonospaced-Italic.ttf.opt: 185152 bytes
+UbuntuMonospaced-Italic.ttf: 1097184 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf.opt /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+### Autohint TTFs (ttfautohint) UbuntuMonospaced-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf '/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf: 185152 bytes
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.autohint.ttf: 147336 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.autohint.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+### Subset TTFs (pyftsubset) UbuntuMonospaced-Italic.ttf
+$ pyftsubset UbuntuMonospaced-Italic.latin
+$ pyftsubset UbuntuMonospaced-Italic.menu
+strippedname:/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Italic.ttf
+### Test UbuntuMono-BoldItalic.ttf
+$ fontbakery-check.py result UbuntuMono-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): ERROR
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): ERROR
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+### Optimize TTF UbuntuMono-BoldItalic.ttf
+$ ls -l 'UbuntuMono-BoldItalic.ttf'* # look at the size savings of that subset process
+UbuntuMono-BoldItalic.ttf.opt: 190704 bytes
+UbuntuMono-BoldItalic.ttf: 210196 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf.opt /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) UbuntuMono-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf '/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf: 190704 bytes
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.autohint.ttf: 146644 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+### Subset TTFs (pyftsubset) UbuntuMono-BoldItalic.ttf
+$ pyftsubset UbuntuMono-BoldItalic.latin
+$ pyftsubset UbuntuMono-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-BoldItalic.ttf
+### Test UbuntuMonospaced-BoldItalic.ttf
+$ fontbakery-check.py result UbuntuMonospaced-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): ERROR
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'TSI0'
+  Ignoring 'TSI1'
+  Ignoring 'TSI2'
+  Ignoring 'TSI3'
+  Ignoring 'TSI5'
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): ERROR
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+### Optimize TTF UbuntuMonospaced-BoldItalic.ttf
+$ ls -l 'UbuntuMonospaced-BoldItalic.ttf'* # look at the size savings of that subset process
+UbuntuMonospaced-BoldItalic.ttf.opt: 191084 bytes
+UbuntuMonospaced-BoldItalic.ttf: 1199672 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf.opt /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) UbuntuMonospaced-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf '/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf: 191084 bytes
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.autohint.ttf: 146720 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+### Subset TTFs (pyftsubset) UbuntuMonospaced-BoldItalic.ttf
+$ pyftsubset UbuntuMonospaced-BoldItalic.latin
+$ pyftsubset UbuntuMonospaced-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-BoldItalic.ttf
+### Test UbuntuMono-Bold.ttf
+$ fontbakery-check.py result UbuntuMono-Bold.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): ERROR
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'VDMX' vertical device metrics table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): ERROR
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+### Optimize TTF UbuntuMono-Bold.ttf
+$ ls -l 'UbuntuMono-Bold.ttf'* # look at the size savings of that subset process
+UbuntuMono-Bold.ttf.opt: 165976 bytes
+UbuntuMono-Bold.ttf: 185344 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf.opt /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+### Autohint TTFs (ttfautohint) UbuntuMono-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf '/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf: 165976 bytes
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.autohint.ttf: 136064 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.autohint.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+### Subset TTFs (pyftsubset) UbuntuMono-Bold.ttf
+$ pyftsubset UbuntuMono-Bold.latin
+$ pyftsubset UbuntuMono-Bold.menu
+strippedname:/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Bold.ttf
+### Test UbuntuMonospaced-Regular.ttf
+$ fontbakery-check.py result UbuntuMonospaced-Regular.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): ERROR
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'TSI0'
+  Ignoring 'TSI1'
+  Ignoring 'TSI2'
+  Ignoring 'TSI3'
+  Ignoring 'TSI5'
+  Ignoring 'VDMX' vertical device metrics table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): ERROR
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+### Optimize TTF UbuntuMonospaced-Regular.ttf
+$ ls -l 'UbuntuMonospaced-Regular.ttf'* # look at the size savings of that subset process
+UbuntuMonospaced-Regular.ttf.opt: 180404 bytes
+UbuntuMonospaced-Regular.ttf: 1068168 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf.opt /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+### Autohint TTFs (ttfautohint) UbuntuMonospaced-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf '/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf: 180404 bytes
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.autohint.ttf: 140916 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.autohint.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+### Subset TTFs (pyftsubset) UbuntuMonospaced-Regular.ttf
+$ pyftsubset UbuntuMonospaced-Regular.latin
+$ pyftsubset UbuntuMonospaced-Regular.menu
+strippedname:/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMonospaced-Regular.ttf
+### Test UbuntuMono-Regular.ttf
+$ fontbakery-check.py result UbuntuMono-Regular.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): ERROR
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'VDMX' vertical device metrics table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf.fix /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): ERROR
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+### Optimize TTF UbuntuMono-Regular.ttf
+$ ls -l 'UbuntuMono-Regular.ttf'* # look at the size savings of that subset process
+UbuntuMono-Regular.ttf.opt: 180284 bytes
+UbuntuMono-Regular.ttf: 199640 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf.opt /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+### Autohint TTFs (ttfautohint) UbuntuMono-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf '/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf: 180284 bytes
+/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.autohint.ttf: 140840 bytes
+$ mv /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.autohint.ttf /home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+### Subset TTFs (pyftsubset) UbuntuMono-Regular.ttf
+$ pyftsubset UbuntuMono-Regular.latin
+$ pyftsubset UbuntuMono-Regular.menu
+strippedname:/home/travis/build/fontdirectory/ubuntumono/builds/build/UbuntuMono-Regular.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/ubuntumono/builds/build
+{} exists
+Designer's name from font is: Dalton Maag Ltd
+Original size: 140916\nGzip size: 74158
+Family Name: Ubuntu Mono
+PS Name: UbuntuMonospaced-BoldItalic
+Full Name: Ubuntu Monospaced Bold Italic
+Style: italic
+Weight: 700
+Filename: UbuntuMonospaced-BoldItalic.ttf
+Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+Family Name: Ubuntu Mono
+PS Name: UbuntuMonospaced-Italic
+Full Name: Ubuntu Monospaced Italic
+Style: italic
+Weight: 400
+Filename: UbuntuMonospaced-Italic.ttf
+Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+Family Name: Ubuntu Mono
+PS Name: UbuntuMono-Italic
+Full Name: Ubuntu Mono Italic
+Style: italic
+Weight: 400
+Filename: UbuntuMono-Italic.ttf
+Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+Family Name: Ubuntu Mono
+PS Name: UbuntuMonospaced-Regular
+Full Name: Ubuntu Monospaced
+Style: normal
+Weight: 400
+Filename: UbuntuMonospaced-Regular.ttf
+Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+Family Name: Ubuntu Mono
+PS Name: UbuntuMono-Regular
+Full Name: Ubuntu Mono
+Style: normal
+Weight: 400
+Filename: UbuntuMono-Regular.ttf
+Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+Family Name: Ubuntu Mono
+PS Name: UbuntuMonospaced-Bold
+Full Name: Ubuntu Monospaced Bold
+Style: normal
+Weight: 700
+Filename: UbuntuMonospaced-Bold.ttf
+Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+Family Name: Ubuntu Mono
+PS Name: UbuntuMono-BoldItalic
+Full Name: Ubuntu Mono Bold Italic
+Style: italic
+Weight: 700
+Filename: UbuntuMono-BoldItalic.ttf
+Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+Family Name: Ubuntu Mono
+PS Name: UbuntuMono-Bold
+Full Name: Ubuntu Mono Bold
+Style: normal
+Weight: 700
+Filename: UbuntuMono-Bold.ttf
+Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_cyrillic(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_cyrillic_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_greek(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_greek_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): OK
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): FAIL
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): OK
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): ERROR
+{
+  "name": "Ubuntu Mono", 
+  "designer": "Dalton Maag", 
+  "license": "UFL", 
+  "visibility": "External", 
+  "category": "Monospace", 
+  "size": 112445, 
+  "fonts": [
+    {
+      "name": "Ubuntu Mono", 
+      "postScriptName": "UbuntuMonospaced-BoldItalic", 
+      "fullName": "Ubuntu Monospaced Bold Italic", 
+      "style": "italic", 
+      "weight": 700, 
+      "filename": "UbuntuMonospaced-BoldItalic.ttf", 
+      "copyright": "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
+    }, 
+    {
+      "name": "Ubuntu Mono", 
+      "postScriptName": "UbuntuMonospaced-Italic", 
+      "fullName": "Ubuntu Monospaced Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "UbuntuMonospaced-Italic.ttf", 
+      "copyright": "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
+    }, 
+    {
+      "name": "Ubuntu Mono", 
+      "postScriptName": "UbuntuMono-Italic", 
+      "fullName": "Ubuntu Mono Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "UbuntuMono-Italic.ttf", 
+      "copyright": "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
+    }, 
+    {
+      "name": "Ubuntu Mono", 
+      "postScriptName": "UbuntuMonospaced-Regular", 
+      "fullName": "Ubuntu Monospaced", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "UbuntuMonospaced-Regular.ttf", 
+      "copyright": "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
+    }, 
+    {
+      "name": "Ubuntu Mono", 
+      "postScriptName": "UbuntuMono-Regular", 
+      "fullName": "Ubuntu Mono", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "UbuntuMono-Regular.ttf", 
+      "copyright": "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
+    }, 
+    {
+      "name": "Ubuntu Mono", 
+      "postScriptName": "UbuntuMonospaced-Bold", 
+      "fullName": "Ubuntu Monospaced Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "UbuntuMonospaced-Bold.ttf", 
+      "copyright": "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
+    }, 
+    {
+      "name": "Ubuntu Mono", 
+      "postScriptName": "UbuntuMono-BoldItalic", 
+      "fullName": "Ubuntu Mono Bold Italic", 
+      "style": "italic", 
+      "weight": 700, 
+      "filename": "UbuntuMono-BoldItalic.ttf", 
+      "copyright": "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
+    }, 
+    {
+      "name": "Ubuntu Mono", 
+      "postScriptName": "UbuntuMono-Bold", 
+      "fullName": "Ubuntu Mono Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "UbuntuMono-Bold.ttf", 
+      "copyright": "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2011-10-05"
+}
